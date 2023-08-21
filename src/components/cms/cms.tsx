@@ -6,6 +6,7 @@ import { Authenticator, FirebaseCMSApp } from 'firecms'
 import 'typeface-rubik'
 import '@fontsource/ibm-plex-mono'
 import { env } from '@/env.mjs'
+import servicesCollection from '@/collections/service'
 
 const firebaseConfig = {
   apiKey: env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -17,9 +18,8 @@ const firebaseConfig = {
 }
 
 export default function CMS() {
-  const myAuthenticator: Authenticator<FirebaseUser> = useCallback(async ({ user }) => {
+  const appAuthenticator: Authenticator<FirebaseUser> = useCallback(async () => {
     // TODO: Add list of users that can access the CMS
-
     return true
   }, [])
 
@@ -27,8 +27,8 @@ export default function CMS() {
     <FirebaseCMSApp
       name={'Positive Mind Care'}
       basePath={'/cms'}
-      authentication={myAuthenticator}
-      collections={[]}
+      authentication={appAuthenticator}
+      collections={[servicesCollection]}
       firebaseConfig={firebaseConfig}
     />
   )
