@@ -7,6 +7,7 @@ import 'typeface-rubik'
 import '@fontsource/ibm-plex-mono'
 import { env } from '@/env.mjs'
 import servicesCollection from '@/collections/service'
+import messageCollection from '@/collections/messages'
 
 const firebaseConfig = {
   apiKey: env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -28,7 +29,7 @@ export default function CMS() {
       name={'Positive Mind Care'}
       basePath={'/cms'}
       authentication={appAuthenticator}
-      collections={[servicesCollection]}
+      collections={[servicesCollection, messageCollection]}
       firebaseConfig={firebaseConfig}
     />
   )

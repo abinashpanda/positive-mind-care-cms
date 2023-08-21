@@ -23,9 +23,6 @@ export type Service = {
   id: string
   image: string
   name: string
-  /**
-   * Multi line description with \n for new line
-   */
   description: string
   serviceType: ServiceType
   price: ServicePrice[]
