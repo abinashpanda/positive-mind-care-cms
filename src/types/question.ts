@@ -19,3 +19,18 @@ export enum Gender {
   FEMALE = 'FEMALE',
   OTHER = 'OTHER',
 }
+
+export type Question = {
+  question: string
+  options: { option: string; value: number }[]
+}
+
+export type QuestionGroup = {
+  criteria: {
+    category: QuestionCategory
+    age: AgeGroup
+    gender: Gender
+  }
+  title: string
+  questions: Question[]
+}
