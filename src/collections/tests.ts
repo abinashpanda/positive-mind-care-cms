@@ -44,10 +44,18 @@ const testsCollection = buildCollection<Tests>({
       name: 'Question Category',
       enumValues: questionCategoryValues,
     }),
-    // animation: buildProperty({
-    //   dataType: 'string',
-    //   title: 'Animation',
-    // }),
+    animation: buildProperty({
+      dataType: 'string',
+      name: 'Animation',
+      storage: {
+        mediaType: 'application/json',
+        storagePath: 'service-animations',
+        acceptedFiles: ['application/json'],
+        metadata: {
+          cacheControl: 'max-age=1000000',
+        },
+      },
+    }),
   },
 })
 

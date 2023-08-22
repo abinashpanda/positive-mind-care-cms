@@ -5,5 +5,5 @@ export type Tests = {
   description: string
   image: string
   questionCategory: QuestionCategory
-    // animation: string
+  animation: string
 }
