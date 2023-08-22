@@ -25,12 +25,14 @@ export type Question = {
   options: { option: string; value: number }[]
 }
 
+export type Criteria = {
+  category: QuestionCategory
+  age: AgeGroup
+  gender: Gender
+}
+
 export type QuestionGroup = {
-  criteria: {
-    category: QuestionCategory
-    age: AgeGroup
-    gender: Gender
-  }
+  criteria: Criteria[]
   title: string
   questions: Question[]
 }

@@ -53,22 +53,25 @@ const scoreCollection = buildCollection<ScoreChartItem>({
       enumValues: questionCategoryValues,
     }),
     gradeCriteria: buildProperty({
-      dataType: 'map',
+      dataType: 'array',
       name: 'Grade Criteria',
-      properties: {
-        grade: buildProperty({
-          dataType: 'string',
-          name: 'Grade',
-          enumValues: gradeValues,
-        }),
-        min: buildProperty({
-          dataType: 'number',
-          name: 'Min',
-        }),
-        max: buildProperty({
-          dataType: 'number',
-          name: 'Max',
-        }),
+      of: {
+        dataType: 'map',
+        properties: {
+          grade: buildProperty({
+            dataType: 'string',
+            name: 'Grade',
+            enumValues: gradeValues,
+          }),
+          min: buildProperty({
+            dataType: 'number',
+            name: 'Min',
+          }),
+          max: buildProperty({
+            dataType: 'number',
+            name: 'Max',
+          }),
+        },
       },
     }),
   },

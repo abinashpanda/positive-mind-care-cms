@@ -31,24 +31,27 @@ const questionCollection = buildCollection<QuestionGroup>({
   }),
   properties: {
     criteria: buildProperty({
-      dataType: 'map',
+      dataType: 'array',
       name: 'Criteria',
-      properties: {
-        category: buildProperty({
-          dataType: 'string',
-          name: 'Category',
-          enumValues: questionCategoryValues,
-        }),
-        age: buildProperty({
-          dataType: 'string',
-          name: 'Age',
-          enumValues: ageGroupValues,
-        }),
-        gender: buildProperty({
-          dataType: 'string',
-          name: 'Gender',
-          enumValues: genderValues,
-        }),
+      of: {
+        dataType: 'map',
+        properties: {
+          category: buildProperty({
+            dataType: 'string',
+            name: 'Category',
+            enumValues: questionCategoryValues,
+          }),
+          age: buildProperty({
+            dataType: 'string',
+            name: 'Age',
+            enumValues: ageGroupValues,
+          }),
+          gender: buildProperty({
+            dataType: 'string',
+            name: 'Gender',
+            enumValues: genderValues,
+          }),
+        },
       },
     }),
     title: buildProperty({

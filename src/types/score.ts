@@ -7,15 +7,17 @@ export enum Grade {
   SEVERE = 'SEVERE',
 }
 
+export type GradeCriteria = {
+  grade: Grade
+  min: number
+  max: number
+}
+
 export type ScoreChartItem = {
   age: AgeGroup
   gender: Gender
   category: QuestionCategory
-  gradeCriteria: {
-    grade: Grade
-    min: number
-    max: number
-  }[]
+  gradeCriteria: GradeCriteria[]
 }
 
 export type ScoreChart = ScoreChartItem[]
