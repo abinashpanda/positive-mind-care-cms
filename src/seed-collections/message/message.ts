@@ -2,7 +2,7 @@ import firebase from 'firebase/compat/app'
 import 'firebase/firestore'
 import * as messageData from './message.json'
 
-const messageCollectionRef = firebase.firestore().collection('message')
+const messageCollectionRef = firebase.firestore().collection('messages')
 
 async function seedCollection() {
   for (const data of messageData) {
