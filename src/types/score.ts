@@ -1,7 +1,7 @@
 import { AgeGroup, Gender, QuestionCategory } from './question'
 
 export enum Grade {
-  GOODc = 'GOOD',
+  GOOD = 'GOOD',
   MILD = 'MILD',
   MODERATE = 'MODERATE',
   SEVERE = 'SEVERE',

@@ -20,7 +20,7 @@ const questionCategoryValues = Object.values(QuestionCategory).map((questionCate
 }))
 
 const questionCollection = buildCollection<QuestionGroup>({
-  name: 'questions',
+  name: 'Questions',
   singularName: 'Question',
   path: 'questions',
   textSearchEnabled: true,

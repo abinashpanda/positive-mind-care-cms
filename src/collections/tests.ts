@@ -41,7 +41,7 @@ const testsCollection = buildCollection<Tests>({
     }),
     questionCategory: buildProperty({
       dataType: 'string',
-      name: 'Category',
+      name: 'Question Category',
       enumValues: questionCategoryValues,
     }),
     // animation: buildProperty({

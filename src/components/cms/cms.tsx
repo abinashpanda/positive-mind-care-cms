@@ -9,6 +9,8 @@ import { env } from '@/env.mjs'
 import servicesCollection from '@/collections/service'
 import messageCollection from '@/collections/messages'
 import testsCollection from '@/collections/tests'
+import questionCollection from '@/collections/question'
+import scoreCollection from '@/collections/score'
 
 const firebaseConfig = {
   apiKey: env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -30,7 +32,7 @@ export default function CMS() {
       name={'Positive Mind Care'}
       basePath={'/cms'}
       authentication={appAuthenticator}
-      collections={[servicesCollection, messageCollection, testsCollection]}
+      collections={[servicesCollection, messageCollection, testsCollection, questionCollection, scoreCollection]}
       firebaseConfig={firebaseConfig}
     />
   )

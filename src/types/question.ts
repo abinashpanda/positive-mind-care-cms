@@ -7,11 +7,11 @@ export enum QuestionCategory {
 }
 
 export enum AgeGroup {
-  UNDER_17 = 'UNDER_17',
-  YOUNG_ADULTS = 'YOUNG_ADULTS',
+  UNDER_17 = 'UNDER 17',
+  YOUNG_ADULTS = 'YOUNG ADULTS',
   ADULTS = 'ADULTS',
-  MIDDLE_AGE = 'MIDDLE_AGE',
-  OLD_AGE = 'OLD_AGE',
+  MIDDLE_AGE = 'MIDDLE AGE',
+  OLD_AGE = 'OLD AGE',
 }
 
 export enum Gender {
