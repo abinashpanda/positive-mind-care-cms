@@ -1,38 +1,27 @@
 [
-    {
-      "title": "Personal social family & Relationship",
-      "description": "Assess your interpersonal and family dynamics.",
-      "image": "../../assets/test-card-screen/personal-image.png",
-      "category": "PERSONAL_SOCIAL_FAMILY_RELATIONSHIP",
-      "animation": "../../assets/animations/family-animation.json"
-    },
-    {
-      "title": "Profession, Career, Purpose",
-      "description": "Discover your career aspirations and purpose.",
-      "image": "../../assets/test-card-screen/profession-image.png",
-      "category": "PROFESSION_CAREER_PURPOSE",
-      "animation": "../../assets/animations/profession-animation.json"
-    },
-    {
-      "title": "Surrounding, Security Community",
-      "description": "Evaluate your sense of community and safety.",
-      "image": "../../assets/test-card-screen/surrounding-image.png",
-      "category": "SURROUNDING_SECURITY_COMMUNITY",
-      "animation": "../../assets/animations/community-animation.json"
-    },
-    {
-      "title": "Health Related",
-      "description": "Gauge your physical and mental well-being.",
-      "image": "../../assets/test-card-screen/health-image.png",
-      "category": "HEALTH_RELATED",
-      "animation": "../../assets/animations/health-animation.json"
-    },
-    {
-      "title": "Ethics and Spirituality",
-      "description": "Explore your ethical beliefs and spiritual depth.",
-      "image": "../../assets/test-card-screen/ethics-image.png",
-      "category": "ETHICS_AND_SPIRITUALITY",
-      "animation": "../../assets/animations/yoga-animation.json"
-    }
-  ]
-  
+  {
+    "title": "Personal social family & Relationship",
+    "description": "Assess your interpersonal and family dynamics.",
+    "category": "PERSONAL_SOCIAL_FAMILY_RELATIONSHIP"
+  },
+  {
+    "title": "Profession, Career, Purpose",
+    "description": "Discover your career aspirations and purpose.",
+    "category": "PROFESSION_CAREER_PURPOSE"
+  },
+  {
+    "title": "Surrounding, Security Community",
+    "description": "Evaluate your sense of community and safety.",
+    "category": "SURROUNDING_SECURITY_COMMUNITY"
+  },
+  {
+    "title": "Health Related",
+    "description": "Gauge your physical and mental well-being.",
+    "category": "HEALTH_RELATED"
+  },
+  {
+    "title": "Ethics and Spirituality",
+    "description": "Explore your ethical beliefs and spiritual depth.",
+    "category": "ETHICS_AND_SPIRITUALITY"
+  }
+]
