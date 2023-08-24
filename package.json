@@ -8,7 +8,10 @@
     "start": "next start",
     "lint": "next lint",
     "seed:tests": "tsup ./src/seed-collections/tests/tests.ts --onSuccess \"node ./dist/tests.js\"",
-    "seed:service": "tsup ./src/seed-collections/service/service.ts --onSuccess \"node ./dist/service.js\"",
+    "seed:services": "tsup ./src/seed-collections/service/services.ts --onSuccess \"node ./dist/services.js\"",
+    "seed:messages": "tsup ./src/seed-collections/message/messages.ts --onSuccess \"node ./dist/messages.js\"",
+    "seed:questions": "tsup ./src/seed-collections/questions/questions.ts --onSuccess \"node ./dist/questions.js\"",
+    "seed:score": "tsup ./src/seed-collections/score/score.ts --onSuccess \"node ./dist/score.js\"",
     "seed-data": "concurrently \"npm run seed:*\""
   },
   "dependencies": {

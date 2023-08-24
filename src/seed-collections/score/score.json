@@ -1,0 +1,1352 @@
+[
+  {
+    "age": "0",
+    "gender": "1",
+    "category": "0",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "grade": "2",
+        "min": 16,
+        "max": 23
+      },
+      {
+        "grade": "1",
+        "min": 24,
+        "max": 31
+      },
+      {
+        "grade": "0",
+        "min": 32,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "0",
+    "gender": "1",
+    "category": "1",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 16
+      },
+      {
+        "grade": "2",
+        "min": 17,
+        "max": 24
+      },
+      {
+        "grade": "1",
+        "min": 25,
+        "max": 32
+      },
+      {
+        "grade": "0",
+        "min": 33,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "0",
+    "gender": "1",
+    "category": "2",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 12
+      },
+      {
+        "grade": "2",
+        "min": 13,
+        "max": 17
+      },
+      {
+        "grade": "1",
+        "min": 18,
+        "max": 24
+      },
+      {
+        "grade": "0",
+        "min": 25,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "0",
+    "gender": "1",
+    "category": "3",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 27
+      },
+      {
+        "grade": "0",
+        "min": 28,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "0",
+    "gender": "1",
+    "category": "4",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 12
+      },
+      {
+        "grade": "2",
+        "min": 13,
+        "max": 17
+      },
+      {
+        "grade": "1",
+        "min": 18,
+        "max": 24
+      },
+      {
+        "grade": "0",
+        "min": 25,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "0",
+    "gender": "0",
+    "category": "0",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "grade": "2",
+        "min": 16,
+        "max": 23
+      },
+      {
+        "grade": "1",
+        "min": 24,
+        "max": 31
+      },
+      {
+        "grade": "0",
+        "min": 32,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "0",
+    "gender": "0",
+    "category": "1",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 22
+      },
+      {
+        "grade": "1",
+        "min": 23,
+        "max": 29
+      },
+      {
+        "grade": "0",
+        "min": 30,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "0",
+    "gender": "0",
+    "category": "2",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 27
+      },
+      {
+        "grade": "0",
+        "min": 28,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "0",
+    "gender": "0",
+    "category": "3",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 27
+      },
+      {
+        "grade": "0",
+        "min": 28,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "0",
+    "gender": "0",
+    "category": "4",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 11
+      },
+      {
+        "grade": "2",
+        "min": 12,
+        "max": 16
+      },
+      {
+        "grade": "1",
+        "min": 17,
+        "max": 25
+      },
+      {
+        "grade": "0",
+        "min": 26,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "1",
+    "gender": "1",
+    "category": "0",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "grade": "2",
+        "min": 16,
+        "max": 23
+      },
+      {
+        "grade": "1",
+        "min": 24,
+        "max": 31
+      },
+      {
+        "grade": "0",
+        "min": 32,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "1",
+    "gender": "1",
+    "category": "1",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 16
+      },
+      {
+        "grade": "2",
+        "min": 17,
+        "max": 24
+      },
+      {
+        "grade": "1",
+        "min": 25,
+        "max": 32
+      },
+      {
+        "grade": "0",
+        "min": 33,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "1",
+    "gender": "1",
+    "category": "2",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "grade": "2",
+        "min": 16,
+        "max": 22
+      },
+      {
+        "grade": "1",
+        "min": 23,
+        "max": 28
+      },
+      {
+        "grade": "0",
+        "min": 29,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "1",
+    "gender": "1",
+    "category": "3",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 27
+      },
+      {
+        "grade": "0",
+        "min": 28,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "1",
+    "gender": "1",
+    "category": "4",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 12
+      },
+      {
+        "grade": "2",
+        "min": 13,
+        "max": 17
+      },
+      {
+        "grade": "1",
+        "min": 18,
+        "max": 24
+      },
+      {
+        "grade": "0",
+        "min": 25,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "1",
+    "gender": "0",
+    "category": "0",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "grade": "2",
+        "min": 16,
+        "max": 23
+      },
+      {
+        "grade": "1",
+        "min": 24,
+        "max": 31
+      },
+      {
+        "grade": "0",
+        "min": 32,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "1",
+    "gender": "0",
+    "category": "1",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 22
+      },
+      {
+        "grade": "1",
+        "min": 23,
+        "max": 29
+      },
+      {
+        "grade": "0",
+        "min": 30,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "1",
+    "gender": "0",
+    "category": "2",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 28
+      },
+      {
+        "grade": "0",
+        "min": 29,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "1",
+    "gender": "0",
+    "category": "3",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 27
+      },
+      {
+        "grade": "0",
+        "min": 28,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "1",
+    "gender": "0",
+    "category": "4",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 12
+      },
+      {
+        "grade": "2",
+        "min": 13,
+        "max": 17
+      },
+      {
+        "grade": "1",
+        "min": 18,
+        "max": 24
+      },
+      {
+        "grade": "0",
+        "min": 25,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "2",
+    "gender": "1",
+    "category": "0",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "grade": "2",
+        "min": 16,
+        "max": 22
+      },
+      {
+        "grade": "1",
+        "min": 23,
+        "max": 30
+      },
+      {
+        "grade": "0",
+        "min": 31,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "2",
+    "gender": "1",
+    "category": "1",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 28
+      },
+      {
+        "grade": "0",
+        "min": 29,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "2",
+    "gender": "1",
+    "category": "2",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 20
+      },
+      {
+        "grade": "1",
+        "min": 21,
+        "max": 27
+      },
+      {
+        "grade": "0",
+        "min": 28,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "2",
+    "gender": "1",
+    "category": "3",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 12
+      },
+      {
+        "grade": "2",
+        "min": 13,
+        "max": 19
+      },
+      {
+        "grade": "1",
+        "min": 20,
+        "max": 25
+      },
+      {
+        "grade": "0",
+        "min": 26,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "2",
+    "gender": "1",
+    "category": "4",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 12
+      },
+      {
+        "grade": "2",
+        "min": 13,
+        "max": 17
+      },
+      {
+        "grade": "1",
+        "min": 18,
+        "max": 23
+      },
+      {
+        "grade": "0",
+        "min": 24,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "2",
+    "gender": "0",
+    "category": "0",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "grade": "2",
+        "min": 16,
+        "max": 23
+      },
+      {
+        "grade": "1",
+        "min": 24,
+        "max": 31
+      },
+      {
+        "grade": "0",
+        "min": 32,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "2",
+    "gender": "0",
+    "category": "1",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 22
+      },
+      {
+        "grade": "1",
+        "min": 23,
+        "max": 29
+      },
+      {
+        "grade": "0",
+        "min": 30,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "2",
+    "gender": "0",
+    "category": "2",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 28
+      },
+      {
+        "grade": "0",
+        "min": 29,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "2",
+    "gender": "0",
+    "category": "3",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 27
+      },
+      {
+        "grade": "0",
+        "min": 28,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "2",
+    "gender": "0",
+    "category": "4",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 12
+      },
+      {
+        "grade": "2",
+        "min": 13,
+        "max": 17
+      },
+      {
+        "grade": "1",
+        "min": 18,
+        "max": 24
+      },
+      {
+        "grade": "0",
+        "min": 25,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "3",
+    "gender": "1",
+    "category": "0",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "grade": "2",
+        "min": 16,
+        "max": 23
+      },
+      {
+        "grade": "1",
+        "min": 24,
+        "max": 31
+      },
+      {
+        "grade": "0",
+        "min": 32,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "3",
+    "gender": "1",
+    "category": "1",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 16
+      },
+      {
+        "grade": "2",
+        "min": 17,
+        "max": 24
+      },
+      {
+        "grade": "1",
+        "min": 25,
+        "max": 32
+      },
+      {
+        "grade": "0",
+        "min": 33,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "3",
+    "gender": "1",
+    "category": "2",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "grade": "2",
+        "min": 16,
+        "max": 22
+      },
+      {
+        "grade": "1",
+        "min": 23,
+        "max": 28
+      },
+      {
+        "grade": "0",
+        "min": 29,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "3",
+    "gender": "1",
+    "category": "3",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 27
+      },
+      {
+        "grade": "0",
+        "min": 28,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "3",
+    "gender": "1",
+    "category": "4",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 12
+      },
+      {
+        "grade": "2",
+        "min": 13,
+        "max": 17
+      },
+      {
+        "grade": "1",
+        "min": 18,
+        "max": 24
+      },
+      {
+        "grade": "0",
+        "min": 25,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "3",
+    "gender": "0",
+    "category": "0",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "grade": "2",
+        "min": 16,
+        "max": 23
+      },
+      {
+        "grade": "1",
+        "min": 24,
+        "max": 31
+      },
+      {
+        "grade": "0",
+        "min": 32,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "3",
+    "gender": "0",
+    "category": "1",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 22
+      },
+      {
+        "grade": "1",
+        "min": 23,
+        "max": 29
+      },
+      {
+        "grade": "0",
+        "min": 30,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "3",
+    "gender": "0",
+    "category": "2",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 28
+      },
+      {
+        "grade": "0",
+        "min": 29,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "3",
+    "gender": "0",
+    "category": "3",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 27
+      },
+      {
+        "grade": "0",
+        "min": 28,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "3",
+    "gender": "0",
+    "category": "4",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 12
+      },
+      {
+        "grade": "2",
+        "min": 13,
+        "max": 17
+      },
+      {
+        "grade": "1",
+        "min": 18,
+        "max": 24
+      },
+      {
+        "grade": "0",
+        "min": 25,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "4",
+    "gender": "1",
+    "category": "0",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 28
+      },
+      {
+        "grade": "0",
+        "min": 29,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "4",
+    "gender": "1",
+    "category": "1",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 22
+      },
+      {
+        "grade": "1",
+        "min": 23,
+        "max": 29
+      },
+      {
+        "grade": "0",
+        "min": 30,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "4",
+    "gender": "1",
+    "category": "2",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 20
+      },
+      {
+        "grade": "1",
+        "min": 21,
+        "max": 27
+      },
+      {
+        "grade": "0",
+        "min": 28,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "4",
+    "gender": "1",
+    "category": "3",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 13
+      },
+      {
+        "grade": "2",
+        "min": 14,
+        "max": 20
+      },
+      {
+        "grade": "1",
+        "min": 21,
+        "max": 26
+      },
+      {
+        "grade": "0",
+        "min": 27,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "4",
+    "gender": "1",
+    "category": "4",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 12
+      },
+      {
+        "grade": "2",
+        "min": 13,
+        "max": 17
+      },
+      {
+        "grade": "1",
+        "min": 18,
+        "max": 23
+      },
+      {
+        "grade": "0",
+        "min": 24,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "4",
+    "gender": "0",
+    "category": "0",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 15
+      },
+      {
+        "grade": "2",
+        "min": 16,
+        "max": 23
+      },
+      {
+        "grade": "1",
+        "min": 24,
+        "max": 31
+      },
+      {
+        "grade": "0",
+        "min": 32,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "4",
+    "gender": "0",
+    "category": "1",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 27
+      },
+      {
+        "grade": "0",
+        "min": 28,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "4",
+    "gender": "0",
+    "category": "2",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 28
+      },
+      {
+        "grade": "0",
+        "min": 29,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "4",
+    "gender": "0",
+    "category": "3",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 14
+      },
+      {
+        "grade": "2",
+        "min": 15,
+        "max": 21
+      },
+      {
+        "grade": "1",
+        "min": 22,
+        "max": 27
+      },
+      {
+        "grade": "0",
+        "min": 28,
+        "max": 1000000
+      }
+    ]
+  },
+  {
+    "age": "4",
+    "gender": "0",
+    "category": "4",
+    "gradeCriteria": [
+      {
+        "grade": "3",
+        "min": 0,
+        "max": 12
+      },
+      {
+        "grade": "2",
+        "min": 13,
+        "max": 17
+      },
+      {
+        "grade": "1",
+        "min": 18,
+        "max": 24
+      },
+      {
+        "grade": "0",
+        "min": 25,
+        "max": 1000000
+      }
+    ]
+  }
+]
