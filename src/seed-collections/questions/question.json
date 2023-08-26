@@ -2,9 +2,9 @@
   {
     "criteria": [
       {
-        "category": "0",
-        "age": "0",
-        "gender": "0"
+        "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+        "age": "UNDER 17",
+        "gender": "MALE"
       }
     ],
     "title": "Personal, Social, Family, Relationship",
@@ -216,9 +216,9 @@
   {
     "criteria": [
       {
-        "category": "0",
-        "age": "1",
-        "gender": "0"
+        "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+        "age": "YOUNG ADULTS",
+        "gender": "MALE"
       }
     ],
     "title": "Personal, Social, Family, Relationship",
@@ -430,9 +430,9 @@
   {
     "criteria": [
       {
-        "category": "0",
-        "age": "2",
-        "gender": "0"
+        "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+        "age": "ADULTS",
+        "gender": "MALE"
       }
     ],
     "title": "Personal, Social, Family, Relationship",
@@ -644,9 +644,9 @@
   {
     "criteria": [
       {
-        "category": "0",
-        "age": "3",
-        "gender": "0"
+        "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+        "age": "MIDDLE AGE",
+        "gender": "MALE"
       }
     ],
     "title": "Personal, Social, Family, Relationship",
@@ -858,9 +858,9 @@
   {
     "criteria": [
       {
-        "category": "0",
-        "age": "4",
-        "gender": "0"
+        "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+        "age": "OLD AGE",
+        "gender": "MALE"
       }
     ],
     "title": "Personal, Social, Family, Relationship",
@@ -1072,9 +1072,9 @@
   {
     "criteria": [
       {
-        "category": "0",
-        "age": "0",
-        "gender": "1"
+        "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+        "age": "UNDER 17",
+        "gender": "FEMALE"
       }
     ],
     "title": "Personal, Social, Family, Relationship",
@@ -1286,9 +1286,9 @@
   {
     "criteria": [
       {
-        "category": "0",
-        "age": "1",
-        "gender": "1"
+        "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+        "age": "YOUNG ADULTS",
+        "gender": "FEMALE"
       }
     ],
     "title": "Personal, Social, Family, Relationship",
@@ -1500,9 +1500,9 @@
   {
     "criteria": [
       {
-        "category": "0",
-        "age": "2",
-        "gender": "1"
+        "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+        "age": "ADULTS",
+        "gender": "FEMALE"
       }
     ],
     "title": "Personal, Social, Family, Relationship",
@@ -1714,9 +1714,9 @@
   {
     "criteria": [
       {
-        "category": "0",
-        "age": "3",
-        "gender": "1"
+        "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+        "age": "MIDDLE AGE",
+        "gender": "FEMALE"
       }
     ],
     "title": "Personal, Social, Family, Relationship",
@@ -1928,9 +1928,9 @@
   {
     "criteria": [
       {
-        "category": "0",
-        "age": "4",
-        "gender": "1"
+        "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+        "age": "OLD AGE",
+        "gender": "FEMALE"
       }
     ],
     "title": "Personal, Social, Family, Relationship",
@@ -2142,9 +2142,9 @@
   {
     "criteria": [
       {
-        "category": "1",
-        "age": "0",
-        "gender": "0"
+        "category": "PROFESSION CAREER PURPOSE",
+        "age": "UNDER 17",
+        "gender": "MALE"
       }
     ],
     "title": "Profession, Career, Purpose",
@@ -2348,9 +2348,9 @@
   {
     "criteria": [
       {
-        "category": "1",
-        "age": "1",
-        "gender": "0"
+        "category": "PROFESSION CAREER PURPOSE",
+        "age": "YOUNG ADULTS",
+        "gender": "MALE"
       }
     ],
     "title": "Profession, Career, Purpose",
@@ -2554,9 +2554,9 @@
   {
     "criteria": [
       {
-        "category": "1",
-        "age": "2",
-        "gender": "0"
+        "category": "PROFESSION CAREER PURPOSE",
+        "age": "ADULTS",
+        "gender": "MALE"
       }
     ],
     "title": "Profession, Career, Purpose",
@@ -2760,9 +2760,9 @@
   {
     "criteria": [
       {
-        "category": "1",
-        "age": "3",
-        "gender": "0"
+        "category": "PROFESSION CAREER PURPOSE",
+        "age": "MIDDLE AGE",
+        "gender": "MALE"
       }
     ],
     "title": "Profession, Career, Purpose",
@@ -2966,9 +2966,9 @@
   {
     "criteria": [
       {
-        "category": "1",
-        "age": "4",
-        "gender": "0"
+        "category": "PROFESSION CAREER PURPOSE",
+        "age": "OLD AGE",
+        "gender": "MALE"
       }
     ],
     "title": "Profession, Career, Purpose",
@@ -3172,9 +3172,9 @@
   {
     "criteria": [
       {
-        "category": "1",
-        "age": "0",
-        "gender": "1"
+        "category": "PROFESSION CAREER PURPOSE",
+        "age": "UNDER 17",
+        "gender": "FEMALE"
       }
     ],
     "title": "Profession, Career, Purpose",
@@ -3378,9 +3378,9 @@
   {
     "criteria": [
       {
-        "category": "1",
-        "age": "1",
-        "gender": "1"
+        "category": "PROFESSION CAREER PURPOSE",
+        "age": "YOUNG ADULTS",
+        "gender": "FEMALE"
       }
     ],
     "title": "Profession, Career, Purpose",
@@ -3584,9 +3584,9 @@
   {
     "criteria": [
       {
-        "category": "1",
-        "age": "2",
-        "gender": "1"
+        "category": "PROFESSION CAREER PURPOSE",
+        "age": "ADULTS",
+        "gender": "FEMALE"
       }
     ],
     "title": "Profession, Career, Purpose",
@@ -3790,9 +3790,9 @@
   {
     "criteria": [
       {
-        "category": "1",
-        "age": "3",
-        "gender": "1"
+        "category": "PROFESSION CAREER PURPOSE",
+        "age": "MIDDLE AGE",
+        "gender": "FEMALE"
       }
     ],
     "title": "Profession, Career, Purpose",
@@ -3996,9 +3996,9 @@
   {
     "criteria": [
       {
-        "category": "1",
-        "age": "4",
-        "gender": "1"
+        "category": "PROFESSION CAREER PURPOSE",
+        "age": "OLD AGE",
+        "gender": "FEMALE"
       }
     ],
     "title": "Profession, Career, Purpose",
@@ -4202,9 +4202,9 @@
   {
     "criteria": [
       {
-        "category": "2",
-        "age": "0",
-        "gender": "0"
+        "category": "SURROUNDING SECURITY COMMUNITY",
+        "age": "UNDER 17",
+        "gender": "MALE"
       }
     ],
     "title": "Surrounding, Security, Community",
@@ -4409,9 +4409,9 @@
   {
     "criteria": [
       {
-        "category": "2",
-        "age": "1",
-        "gender": "0"
+        "category": "SURROUNDING SECURITY COMMUNITY",
+        "age": "YOUNG ADULTS",
+        "gender": "MALE"
       }
     ],
     "title": "Surrounding, Security, Community",
@@ -4616,9 +4616,9 @@
   {
     "criteria": [
       {
-        "category": "2",
-        "age": "2",
-        "gender": "0"
+        "category": "SURROUNDING SECURITY COMMUNITY",
+        "age": "ADULTS",
+        "gender": "MALE"
       }
     ],
     "title": "Surrounding, Security, Community",
@@ -4823,9 +4823,9 @@
   {
     "criteria": [
       {
-        "category": "2",
-        "age": "3",
-        "gender": "0"
+        "category": "SURROUNDING SECURITY COMMUNITY",
+        "age": "MIDDLE AGE",
+        "gender": "MALE"
       }
     ],
     "title": "Surrounding, Security, Community",
@@ -5030,9 +5030,9 @@
   {
     "criteria": [
       {
-        "category": "2",
-        "age": "4",
-        "gender": "0"
+        "category": "SURROUNDING SECURITY COMMUNITY",
+        "age": "OLD AGE",
+        "gender": "MALE"
       }
     ],
     "title": "Surrounding, Security, Community",
@@ -5237,9 +5237,9 @@
   {
     "criteria": [
       {
-        "category": "2",
-        "age": "0",
-        "gender": "1"
+        "category": "SURROUNDING SECURITY COMMUNITY",
+        "age": "UNDER 17",
+        "gender": "FEMALE"
       }
     ],
     "title": "Surrounding, Security, Community",
@@ -5419,423 +5419,9 @@
   {
     "criteria": [
       {
-        "category": "2",
-        "age": "1",
-        "gender": "1"
-      }
-    ],
-    "title": "Surrounding, Security, Community",
-    "questions": [
-      {
-        "question": "I'm  easily influenced by what goes on around me.",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 1
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 3
-          }
-        ]
-      },
-      {
-        "question": "I feel safe where I live",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Are there visible security measures in place around you (e.g., cameras, locks, alarms)?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Do you know your neighbours or people living nearby?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Do you trust the people in your community?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Are there any signs of social cohesion and connectedness among community members?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Are there local support networks or organisations that promote well-being and safety?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Are there any visible signs of crime or vandalism in your surroundings?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 1
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 3
-          }
-        ]
-      },
-      {
-        "question": "Do you feel comfortable walking alone in your neighbourhood, especially at night?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Is there a sense of cleanliness and maintenance in your community?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Do you see public spaces being utilised for social interactions and gatherings?",
-        "options": [
-          {
-            "option": "All of the time",
-            "value": 5
-          },
-          {
-            "option": "Most of the time",
-            "value": 4
-          },
-          {
-            "option": "Some of the time",
-            "value": 3
-          },
-          {
-            "option": "A little",
-            "value": 2
-          },
-          {
-            "option": "None of the time",
-            "value": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "criteria": [
-      {
-        "category": "2",
-        "age": "2",
-        "gender": "1"
-      }
-    ],
-    "title": "Surrounding, Security, Community",
-    "questions": [
-      {
-        "question": "I'm  easily influenced by what goes on around me.",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "I feel safe where I live",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Are there visible security measures in place around you (e.g., cameras, locks, alarms)?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Do you know your neighbours or people living nearby?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Do you trust the people in your community?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Are there any signs of social cohesion and connectedness among community members?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Are there local support networks or organisations that promote well-being and safety?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Are there any visible signs of crime or vandalism in your surroundings?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 1
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 3
-          }
-        ]
-      },
-      {
-        "question": "Do you feel comfortable walking alone in your neighbourhood, especially at night?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Is there a sense of cleanliness and maintenance in your community?",
-        "options": [
-          {
-            "option": "Yes",
-            "value": 3
-          },
-          {
-            "option": "Somewhat",
-            "value": 2
-          },
-          {
-            "option": "No",
-            "value": 1
-          }
-        ]
-      },
-      {
-        "question": "Do you see public spaces being utilised for social interactions and gatherings?",
-        "options": [
-          {
-            "option": "All of the time",
-            "value": 5
-          },
-          {
-            "option": "Most of the time",
-            "value": 4
-          },
-          {
-            "option": "Some of the time",
-            "value": 3
-          },
-          {
-            "option": "A little",
-            "value": 2
-          },
-          {
-            "option": "None of the time",
-            "value": 1
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "criteria": [
-      {
-        "category": "2",
-        "age": "3",
-        "gender": "1"
+        "category": "SURROUNDING SECURITY COMMUNITY",
+        "age": "YOUNG ADULTS",
+        "gender": "FEMALE"
       }
     ],
     "title": "Surrounding, Security, Community",
@@ -6040,9 +5626,423 @@
   {
     "criteria": [
       {
-        "category": "2",
-        "age": "4",
-        "gender": "1"
+        "category": "SURROUNDING SECURITY COMMUNITY",
+        "age": "ADULTS",
+        "gender": "FEMALE"
+      }
+    ],
+    "title": "Surrounding, Security, Community",
+    "questions": [
+      {
+        "question": "I'm  easily influenced by what goes on around me.",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "I feel safe where I live",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Are there visible security measures in place around you (e.g., cameras, locks, alarms)?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Do you know your neighbours or people living nearby?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Do you trust the people in your community?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Are there any signs of social cohesion and connectedness among community members?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Are there local support networks or organisations that promote well-being and safety?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Are there any visible signs of crime or vandalism in your surroundings?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 1
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "question": "Do you feel comfortable walking alone in your neighbourhood, especially at night?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Is there a sense of cleanliness and maintenance in your community?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Do you see public spaces being utilised for social interactions and gatherings?",
+        "options": [
+          {
+            "option": "All of the time",
+            "value": 5
+          },
+          {
+            "option": "Most of the time",
+            "value": 4
+          },
+          {
+            "option": "Some of the time",
+            "value": 3
+          },
+          {
+            "option": "A little",
+            "value": 2
+          },
+          {
+            "option": "None of the time",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "criteria": [
+      {
+        "category": "SURROUNDING SECURITY COMMUNITY",
+        "age": "MIDDLE AGE",
+        "gender": "FEMALE"
+      }
+    ],
+    "title": "Surrounding, Security, Community",
+    "questions": [
+      {
+        "question": "I'm  easily influenced by what goes on around me.",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 1
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "question": "I feel safe where I live",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Are there visible security measures in place around you (e.g., cameras, locks, alarms)?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Do you know your neighbours or people living nearby?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Do you trust the people in your community?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Are there any signs of social cohesion and connectedness among community members?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Are there local support networks or organisations that promote well-being and safety?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Are there any visible signs of crime or vandalism in your surroundings?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 1
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "question": "Do you feel comfortable walking alone in your neighbourhood, especially at night?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Is there a sense of cleanliness and maintenance in your community?",
+        "options": [
+          {
+            "option": "Yes",
+            "value": 3
+          },
+          {
+            "option": "Somewhat",
+            "value": 2
+          },
+          {
+            "option": "No",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "question": "Do you see public spaces being utilised for social interactions and gatherings?",
+        "options": [
+          {
+            "option": "All of the time",
+            "value": 5
+          },
+          {
+            "option": "Most of the time",
+            "value": 4
+          },
+          {
+            "option": "Some of the time",
+            "value": 3
+          },
+          {
+            "option": "A little",
+            "value": 2
+          },
+          {
+            "option": "None of the time",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "criteria": [
+      {
+        "category": "SURROUNDING SECURITY COMMUNITY",
+        "age": "OLD AGE",
+        "gender": "FEMALE"
       }
     ],
     "title": "Surrounding, Security, Community",
@@ -6247,9 +6247,9 @@
   {
     "criteria": [
       {
-        "category": "3",
-        "age": "0",
-        "gender": "0"
+        "category": "HEALTH RELATED",
+        "age": "UNDER 17",
+        "gender": "MALE"
       }
     ],
     "title": "Health related",
@@ -6445,9 +6445,9 @@
   {
     "criteria": [
       {
-        "category": "3",
-        "age": "1",
-        "gender": "0"
+        "category": "HEALTH RELATED",
+        "age": "YOUNG ADULTS",
+        "gender": "MALE"
       }
     ],
     "title": "Health related",
@@ -6643,9 +6643,9 @@
   {
     "criteria": [
       {
-        "category": "3",
-        "age": "2",
-        "gender": "0"
+        "category": "HEALTH RELATED",
+        "age": "ADULTS",
+        "gender": "MALE"
       }
     ],
     "title": "Health related",
@@ -6841,9 +6841,9 @@
   {
     "criteria": [
       {
-        "category": "3",
-        "age": "3",
-        "gender": "0"
+        "category": "HEALTH RELATED",
+        "age": "MIDDLE AGE",
+        "gender": "MALE"
       }
     ],
     "title": "Health related",
@@ -7039,9 +7039,9 @@
   {
     "criteria": [
       {
-        "category": "3",
-        "age": "4",
-        "gender": "0"
+        "category": "HEALTH RELATED",
+        "age": "OLD AGE",
+        "gender": "MALE"
       }
     ],
     "title": "Health related",
@@ -7237,9 +7237,9 @@
   {
     "criteria": [
       {
-        "category": "3",
-        "age": "0",
-        "gender": "1"
+        "category": "HEALTH RELATED",
+        "age": "UNDER 17",
+        "gender": "FEMALE"
       }
     ],
     "title": "Health related",
@@ -7435,9 +7435,9 @@
   {
     "criteria": [
       {
-        "category": "3",
-        "age": "1",
-        "gender": "1"
+        "category": "HEALTH RELATED",
+        "age": "YOUNG ADULTS",
+        "gender": "FEMALE"
       }
     ],
     "title": "Health related",
@@ -7633,9 +7633,9 @@
   {
     "criteria": [
       {
-        "category": "3",
-        "age": "2",
-        "gender": "1"
+        "category": "HEALTH RELATED",
+        "age": "ADULTS",
+        "gender": "FEMALE"
       }
     ],
     "title": "Health related",
@@ -7831,9 +7831,9 @@
   {
     "criteria": [
       {
-        "category": "3",
-        "age": "3",
-        "gender": "1"
+        "category": "HEALTH RELATED",
+        "age": "MIDDLE AGE",
+        "gender": "FEMALE"
       }
     ],
     "title": "Health related",
@@ -8029,9 +8029,9 @@
   {
     "criteria": [
       {
-        "category": "3",
-        "age": "4",
-        "gender": "1"
+        "category": "HEALTH RELATED",
+        "age": "OLD AGE",
+        "gender": "FEMALE"
       }
     ],
     "title": "Health related",
@@ -8219,9 +8219,9 @@
   {
     "criteria": [
       {
-        "category": "4",
-        "age": "0",
-        "gender": "0"
+        "category": "ETHICS AND SPIRITUALITY",
+        "age": "UNDER 17",
+        "gender": "MALE"
       }
     ],
     "title": "Ethics and Spirituality",
@@ -8397,9 +8397,9 @@
   {
     "criteria": [
       {
-        "category": "4",
-        "age": "1",
-        "gender": "0"
+        "category": "ETHICS AND SPIRITUALITY",
+        "age": "YOUNG ADULTS",
+        "gender": "MALE"
       }
     ],
     "title": "Ethics and Spirituality",
@@ -8575,9 +8575,9 @@
   {
     "criteria": [
       {
-        "category": "4",
-        "age": "2",
-        "gender": "0"
+        "category": "ETHICS AND SPIRITUALITY",
+        "age": "ADULTS",
+        "gender": "MALE"
       }
     ],
     "title": "Ethics and Spirituality",
@@ -8753,9 +8753,9 @@
   {
     "criteria": [
       {
-        "category": "4",
-        "age": "3",
-        "gender": "0"
+        "category": "ETHICS AND SPIRITUALITY",
+        "age": "MIDDLE AGE",
+        "gender": "MALE"
       }
     ],
     "title": "Ethics and Spirituality",
@@ -8931,9 +8931,9 @@
   {
     "criteria": [
       {
-        "category": "4",
-        "age": "4",
-        "gender": "0"
+        "category": "ETHICS AND SPIRITUALITY",
+        "age": "OLD AGE",
+        "gender": "MALE"
       }
     ],
     "title": "Ethics and Spirituality",
@@ -9109,9 +9109,9 @@
   {
     "criteria": [
       {
-        "category": "4",
-        "age": "0",
-        "gender": "1"
+        "category": "ETHICS AND SPIRITUALITY",
+        "age": "UNDER 17",
+        "gender": "FEMALE"
       }
     ],
     "title": "Ethics and Spirituality",
@@ -9287,9 +9287,9 @@
   {
     "criteria": [
       {
-        "category": "4",
-        "age": "1",
-        "gender": "1"
+        "category": "ETHICS AND SPIRITUALITY",
+        "age": "YOUNG ADULTS",
+        "gender": "FEMALE"
       }
     ],
     "title": "Ethics and Spirituality",
@@ -9465,9 +9465,9 @@
   {
     "criteria": [
       {
-        "category": "4",
-        "age": "2",
-        "gender": "1"
+        "category": "ETHICS AND SPIRITUALITY",
+        "age": "ADULTS",
+        "gender": "FEMALE"
       }
     ],
     "title": "Ethics and Spirituality",
@@ -9643,9 +9643,9 @@
   {
     "criteria": [
       {
-        "category": "4",
-        "age": "3",
-        "gender": "1"
+        "category": "ETHICS AND SPIRITUALITY",
+        "age": "MIDDLE AGE",
+        "gender": "FEMALE"
       }
     ],
     "title": "Ethics and Spirituality",
@@ -9821,9 +9821,9 @@
   {
     "criteria": [
       {
-        "category": "4",
-        "age": "4",
-        "gender": "1"
+        "category": "ETHICS AND SPIRITUALITY",
+        "age": "OLD AGE",
+        "gender": "FEMALE"
       }
     ],
     "title": "Ethics and Spirituality",
