@@ -2,26 +2,26 @@
   {
     "title": "Personal social family & Relationship",
     "description": "Assess your interpersonal and family dynamics.",
-    "questionCategory": "0"
+    "questionCategory": "PERSONAL SOCIAL FAMILY RELATIONSHIP"
   },
   {
     "title": "Profession, Career, Purpose",
     "description": "Discover your career aspirations and purpose.",
-    "questionCategory": "1"
+    "questionCategory": " PROFESSION CAREER PURPOSE"
   },
   {
     "title": "Surrounding, Security Community",
     "description": "Evaluate your sense of community and safety.",
-    "questionCategory": "2"
+    "questionCategory": "SURROUNDING SECURITY COMMUNITY"
   },
   {
     "title": "Health Related",
     "description": "Gauge your physical and mental well-being.",
-    "questionCategory": "3"
+    "questionCategory": "HEALTH RELATED"
   },
   {
     "title": "Ethics and Spirituality",
     "description": "Explore your ethical beliefs and spiritual depth.",
-    "questionCategory": "4"
+    "questionCategory": "ETHICS AND SPIRITUALITY"
   }
 ]
