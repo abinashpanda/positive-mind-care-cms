@@ -2,8 +2,8 @@ import { buildCollection, buildProperty } from 'firecms'
 import { QuestionCategory } from '@/types/question'
 import { Tests } from '@/types/tests'
 
-const questionCategoryValues = Object.values(QuestionCategory).map((questionCategory, index) => ({
-  id: index.toString(),
+const questionCategoryValues = Object.values(QuestionCategory).map((questionCategory) => ({
+  id: questionCategory,
   value: questionCategory,
   label: questionCategory,
 }))

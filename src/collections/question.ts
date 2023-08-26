@@ -1,20 +1,20 @@
 import { buildCollection, buildProperty } from 'firecms'
 import { AgeGroup, Gender, QuestionCategory, QuestionGroup } from '@/types/question'
 
-const ageGroupValues = Object.values(AgeGroup).map((age, index) => ({
-  id: index.toString(),
+const ageGroupValues = Object.values(AgeGroup).map((age) => ({
+  id: age,
   value: age,
   label: age,
 }))
 
-const genderValues = Object.values(Gender).map((gender, index) => ({
-  id: index.toString(),
+const genderValues = Object.values(Gender).map((gender) => ({
+  id: gender,
   value: gender,
   label: gender,
 }))
 
-const questionCategoryValues = Object.values(QuestionCategory).map((questionCategory, index) => ({
-  id: index.toString(),
+const questionCategoryValues = Object.values(QuestionCategory).map((questionCategory) => ({
+  id: questionCategory,
   value: questionCategory,
   label: questionCategory,
 }))
