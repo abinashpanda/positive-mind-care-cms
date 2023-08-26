@@ -3,35 +3,35 @@
     "id": "guided-meditation",
     "name": "Guided Meditation",
     "description": "Discover the power of guided meditation at Positive Mind Care. Our expert instructors use cutting-edge technology and personalized techniques to help you achieve a positive mindset. Through visualization, breathing techniques, and positive affirmations, guided meditation can help you reduce stress and anxiety, improve your sleep, enhance focus, and promote emotional healing. Join us on a journey to a healthier mind and experience the transformative benefits of guided meditation today.",
-    "serviceType": "1",
+    "serviceType": "MINDFULLNESS",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -39,35 +39,35 @@
     "id": "yoga",
     "name": "Yoga",
     "description": "Yoga is an ancient practice that combines physical postures, breathing exercises, and meditation to improve overall well-being. Regular yoga practice can increase flexibility, strength, balance, and reduce stress and anxiety. It is suitable for people of all ages and fitness levels. Join a yoga class or practice at home to experience the benefits of this holistic practice.",
-    "serviceType": "1",
+    "serviceType": "MINDFULLNESS",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -75,35 +75,35 @@
     "id": "mobile-de-addiction",
     "name": "Mobile De-addiction",
     "description": "At Positive Mind Care, we understand the negative impact of mobile addiction on mental health. Our team of dedicated experts offers personalized mobile deaddiction services using world-class technologies to help you break free from excessive mobile use. Our program includes counseling, mindfulness techniques, and cognitive-behavioral therapy to help you regain control over your life. Experience the benefits of reduced screen time, improved productivity, and better relationships by joining our mobile deaddiction program today. Take the first step towards a healthier, happier life with Positive Mind Care.",
-    "serviceType": "1",
+    "serviceType": "MINDFULLNESS",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -111,35 +111,35 @@
     "id": "couples-therapy",
     "name": "Couples Therapy",
     "description": "Our confidential couples therapy provides personalized support to help you to overcome conflicts, disconnection, infidelity, and external pressures. Our team addresses various challenges, fostering a healthier and more fulfilling relationship",
-    "serviceType": "0",
+    "serviceType": "PSYCHOLOGICAL COUNSELLING",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -147,35 +147,35 @@
     "id": "career-counselling",
     "name": "Career Counselling",
     "description": "Career counseling provides guidance, clarity, and support to help individuals make informed career decisions, develop strategies for growth, overcome challenges in unique ways, and maximize their potential for success and satisfaction",
-    "serviceType": "0",
+    "serviceType": "PSYCHOLOGICAL COUNSELLING",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -183,35 +183,35 @@
     "id": "personality-disorders",
     "name": "Personality Disorders",
     "description": "Personality disorder’s common signs include unstable relationships, intense mood swings, impulsivity, distorted self-image, fear of abandonment, emotional dysregulation, chronic feelings of emptiness, and persistent maladaptive thoughts and behaviors",
-    "serviceType": "0",
+    "serviceType": "PSYCHOLOGICAL COUNSELLING",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -219,35 +219,35 @@
     "id": "de-addiction",
     "name": "De-Addiction",
     "description": "De-Addiction counseling is indicated by symptoms such as loss of control, withdrawal, tolerance, neglect of responsibilities, social/occupational problems, and unsuccessful attempts to quit or reduce substance use.",
-    "serviceType": "0",
+    "serviceType": "PSYCHOLOGICAL COUNSELLING",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -255,35 +255,35 @@
     "id": "schizophrenia-disorder",
     "name": "Schizophrenia Disorder",
     "description": "Schizophrenia is a chronic mental disorder marked by distorted thinking, hallucinations, delusions, disorganized speech, and impaired social functioning. Long-term treatment and support are crucial for symptom management and enhancing well-being.",
-    "serviceType": "0",
+    "serviceType": "PSYCHOLOGICAL COUNSELLING",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -291,35 +291,35 @@
     "id": "mild-depression",
     "name": "Mild Depression",
     "description": "Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. People with depression can benefit from our psychiatrists & psychologists. They can prescribe medications to relieve symptoms.",
-    "serviceType": "0",
+    "serviceType": "PSYCHOLOGICAL COUNSELLING",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -327,35 +327,35 @@
     "id": "mild-anxiety",
     "name": "Mild Anxiety",
     "description": "Anxiety disorder is due to a medical condition includes symptoms of intense anxiety or panic that are directly caused by a physical health problem. Generalized anxiety disorder includes persistent and excessive anxiety and worry about activities or events — even ordinary, routine issues.",
-    "serviceType": "0",
+    "serviceType": "PSYCHOLOGICAL COUNSELLING",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -363,35 +363,35 @@
     "id": "bipolar-disorder",
     "name": "Bipolar Disorder",
     "description": "Symptoms of bipolar disorder include extreme mood swings, alternating between manic episodes (elevated mood, impulsivity) and depressive episodes (low mood, loss of interest), disrupted sleep patterns, racing thoughts, and erratic behavior",
-    "serviceType": "0",
+    "serviceType": "PSYCHOLOGICAL COUNSELLING",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -399,35 +399,35 @@
     "id": "post-traumatic",
     "name": "Post-Traumatic Stress Disorder(PTSD)",
     "description": "Symptoms of Post-Traumatic Stress Disorder (PTSD) include intrusive memories, flashbacks, nightmares, avoidance of triggers, heightened arousal, memory problems, negative mood, difficulty concentrating, and emotional distress triggered by traumatic experiences.",
-    "serviceType": "0",
+    "serviceType": "PSYCHOLOGICAL COUNSELLING",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -435,35 +435,35 @@
     "id": "dementia",
     "name": "Dementia",
     "description": "Dementia is a general term for the impaired ability to remember, think, or make decisions that interferes with doing everyday activities. Alzheimer’s disease is the most common type of dementia.",
-    "serviceType": "2",
+    "serviceType": "CLINICAL TREATMENT",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -471,35 +471,35 @@
     "id": "major-depression",
     "name": "Major Depression",
     "description": "Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. People with depression can benefit from our psychiatrists & psychologists. They can prescribe medications to relieve symptoms.",
-    "serviceType": "2",
+    "serviceType": "CLINICAL TREATMENT",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -507,35 +507,35 @@
     "id": "tobacco-deaddction",
     "name": "Toabacco De-Addiction",
     "description": "Obsessive-compulsive disorder (OCD) features a pattern of unwanted thoughts and fears (obsessions) that lead you to do repetitive behaviour’s (compulsions). These obsessions and compulsions interfere with daily activities and cause significant distress.",
-    "serviceType": "2",
+    "serviceType": "CLINICAL TREATMENT",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -543,35 +543,35 @@
     "id": "obsessive-compulsive-disorder",
     "name": "Obsessive Compulsive Disorder(OCD)",
     "description": "Obsessive-compulsive disorder (OCD) features a pattern of unwanted thoughts and fears (obsessions) that lead you to do repetitive behaviour’s (compulsions). These obsessions and compulsions interfere with daily activities and cause significant distress.",
-    "serviceType": "2",
+    "serviceType": "CLINICAL TREATMENT",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -579,35 +579,35 @@
     "id": "anxiety",
     "name": "Anxiety",
     "description": "Anxiety disorder is due to a medical condition includes symptoms of intense anxiety or panic that are directly caused by a physical health problem. Generalized anxiety disorder includes persistent and excessive anxiety and worry about activities or events — even ordinary, routine issues.",
-    "serviceType": "2",
+    "serviceType": "CLINICAL TREATMENT",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -615,35 +615,35 @@
     "id": "parkinson-disorder",
     "name": "Parkinson's Disorder",
     "description": "Parkinson’s disease is a progressive disorder that affects the nervous system and the parts of the body controlled by the nerves. Medication can help control the symptoms of Parkinson’s.",
-    "serviceType": "2",
+    "serviceType": "CLINICAL TREATMENT",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -651,35 +651,35 @@
     "id": "alzheimers",
     "name": "Alzheimer’s",
     "description": "A disorder characterised by failure to recover after experiencing or witnessing a terrifying event. The condition may last months or years, with triggers that can bring back memories of the trauma accompanied by intense emotional and physical reactions.",
-    "serviceType": "2",
+    "serviceType": "CLINICAL TREATMENT",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   },
@@ -687,35 +687,35 @@
     "id": "brain-stroke",
     "name": "Brain Stroke",
     "description": "A disorder characterised by failure to recover after experiencing or witnessing a terrifying event. The condition may last months or years, with triggers that can bring back memories of the trauma accompanied by intense emotional and physical reactions.",
-    "serviceType": "2",
+    "serviceType": "CLINICAL TREATMENT",
     "price": [
       {
         "id": "monthly-package",
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "MONTHLY"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "QUARTERLY"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "HALF YEARLY"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "YEARLY"
       }
     ]
   }
