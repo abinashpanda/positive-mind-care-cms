@@ -1,1349 +1,1349 @@
 [
   {
-    "age": "UNDER 17",
-    "gender": "FEMALE",
-    "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+    "age": "0",
+    "gender": "1",
+    "category": "0",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 15
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 16,
         "max": 23
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 24,
         "max": 31
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 32,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "UNDER 17",
-    "gender": "FEMALE",
-    "category": "PROFESSION CAREER PURPOSE",
+    "age": "0",
+    "gender": "1",
+    "category": "1",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 16
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 17,
         "max": 24
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 25,
         "max": 32
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 33,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "UNDER 17",
-    "gender": "FEMALE",
-    "category": "SURROUNDING SECURITY COMMUNITY",
+    "age": "0",
+    "gender": "1",
+    "category": "2",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 12
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 13,
         "max": 17
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 18,
         "max": 24
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 25,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "UNDER 17",
-    "gender": "FEMALE",
-    "category": "HEALTH RELATED",
+    "age": "0",
+    "gender": "1",
+    "category": "3",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 27
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 28,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "UNDER 17",
-    "gender": "FEMALE",
-    "category": "ETHICS AND SPIRITUALITY",
+    "age": "0",
+    "gender": "1",
+    "category": "4",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 12
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 13,
         "max": 17
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 18,
         "max": 24
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 25,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "UNDER 17",
-    "gender": "MALE",
-    "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+    "age": "0",
+    "gender": "0",
+    "category": "0",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 15
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 16,
         "max": 23
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 24,
         "max": 31
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 32,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "UNDER 17",
-    "gender": "MALE",
-    "category": "PROFESSION CAREER PURPOSE",
+    "age": "0",
+    "gender": "0",
+    "category": "1",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 22
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 23,
         "max": 29
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 30,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "UNDER 17",
-    "gender": "MALE",
-    "category": "SURROUNDING SECURITY COMMUNITY",
+    "age": "0",
+    "gender": "0",
+    "category": "2",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 27
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 28,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "UNDER 17",
-    "gender": "MALE",
-    "category": "HEALTH RELATED",
+    "age": "0",
+    "gender": "0",
+    "category": "3",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 27
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 28,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "UNDER 17",
-    "gender": "MALE",
-    "category": "ETHICS AND SPIRITUALITY",
+    "age": "0",
+    "gender": "0",
+    "category": "4",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 11
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 12,
         "max": 16
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 17,
         "max": 25
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 26,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "YOUNG ADULTS",
-    "gender": "FEMALE",
-    "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+    "age": "1",
+    "gender": "1",
+    "category": "0",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 15
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 16,
         "max": 23
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 24,
         "max": 31
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 32,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "YOUNG ADULTS",
-    "gender": "FEMALE",
-    "category": "PROFESSION CAREER PURPOSE",
+    "age": "1",
+    "gender": "1",
+    "category": "1",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 16
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 17,
         "max": 24
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 25,
         "max": 32
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 33,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "YOUNG ADULTS",
-    "gender": "FEMALE",
-    "category": "SURROUNDING SECURITY COMMUNITY",
+    "age": "1",
+    "gender": "1",
+    "category": "2",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 15
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 16,
         "max": 22
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 23,
         "max": 28
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 29,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "YOUNG ADULTS",
-    "gender": "FEMALE",
-    "category": "HEALTH RELATED",
+    "age": "1",
+    "gender": "1",
+    "category": "3",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 27
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 28,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "YOUNG ADULTS",
-    "gender": "FEMALE",
-    "category": "ETHICS AND SPIRITUALITY",
+    "age": "1",
+    "gender": "1",
+    "category": "4",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 12
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 13,
         "max": 17
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 18,
         "max": 24
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 25,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "YOUNG ADULTS",
-    "gender": "MALE",
-    "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+    "age": "1",
+    "gender": "0",
+    "category": "0",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 15
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 16,
         "max": 23
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 24,
         "max": 31
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 32,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "YOUNG ADULTS",
-    "gender": "MALE",
-    "category": "PROFESSION CAREER PURPOSE",
+    "age": "1",
+    "gender": "0",
+    "category": "1",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 22
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 23,
         "max": 29
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 30,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "YOUNG ADULTS",
-    "gender": "MALE",
-    "category": "SURROUNDING SECURITY COMMUNITY",
+    "age": "1",
+    "gender": "0",
+    "category": "2",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 28
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 29,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "YOUNG ADULTS",
-    "gender": "MALE",
-    "category": "HEALTH RELATED",
+    "age": "1",
+    "gender": "0",
+    "category": "3",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 27
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 28,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "YOUNG ADULTS",
-    "gender": "MALE",
-    "category": "ETHICS AND SPIRITUALITY",
+    "age": "1",
+    "gender": "0",
+    "category": "4",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 12
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 13,
         "max": 17
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 18,
         "max": 24
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 25,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "ADULTS",
-    "gender": "FEMALE",
-    "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+    "age": "2",
+    "gender": "1",
+    "category": "0",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 15
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 16,
         "max": 22
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 23,
         "max": 30
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 31,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "ADULTS",
-    "gender": "FEMALE",
-    "category": "PROFESSION CAREER PURPOSE",
+    "age": "2",
+    "gender": "1",
+    "category": "1",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 28
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 29,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "ADULTS",
-    "gender": "FEMALE",
-    "category": "SURROUNDING SECURITY COMMUNITY",
+    "age": "2",
+    "gender": "1",
+    "category": "2",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 20
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 21,
         "max": 27
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 28,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "ADULTS",
-    "gender": "FEMALE",
-    "category": "HEALTH RELATED",
+    "age": "2",
+    "gender": "1",
+    "category": "3",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 12
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 13,
         "max": 19
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 20,
         "max": 25
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 26,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "ADULTS",
-    "gender": "FEMALE",
-    "category": "ETHICS AND SPIRITUALITY",
+    "age": "2",
+    "gender": "1",
+    "category": "4",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 12
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 13,
         "max": 17
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 18,
         "max": 23
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 24,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "ADULTS",
-    "gender": "MALE",
-    "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+    "age": "2",
+    "gender": "0",
+    "category": "0",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 15
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 16,
         "max": 23
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 24,
         "max": 31
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 32,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "ADULTS",
-    "gender": "MALE",
-    "category": "PROFESSION CAREER PURPOSE",
+    "age": "2",
+    "gender": "0",
+    "category": "1",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 22
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 23,
         "max": 29
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 30,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "ADULTS",
-    "gender": "MALE",
-    "category": "SURROUNDING SECURITY COMMUNITY",
+    "age": "2",
+    "gender": "0",
+    "category": "2",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 28
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 29,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "ADULTS",
-    "gender": "MALE",
-    "category": "HEALTH RELATED",
+    "age": "2",
+    "gender": "0",
+    "category": "3",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 27
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 28,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "ADULTS",
-    "gender": "MALE",
-    "category": "ETHICS AND SPIRITUALITY",
+    "age": "2",
+    "gender": "0",
+    "category": "4",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 12
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 13,
         "max": 17
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 18,
         "max": 24
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 25,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "MIDDLE AGE",
-    "gender": "FEMALE",
-    "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+    "age": "3",
+    "gender": "1",
+    "category": "0",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 15
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 16,
         "max": 23
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 24,
         "max": 31
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 32,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "MIDDLE AGE",
-    "gender": "FEMALE",
-    "category": "PROFESSION CAREER PURPOSE",
+    "age": "3",
+    "gender": "1",
+    "category": "1",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 16
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 17,
         "max": 24
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 25,
         "max": 32
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 33,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "MIDDLE AGE",
-    "gender": "FEMALE",
-    "category": "SURROUNDING SECURITY COMMUNITY",
+    "age": "3",
+    "gender": "1",
+    "category": "2",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 15
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 16,
         "max": 22
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 23,
         "max": 28
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 29,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "MIDDLE AGE",
-    "gender": "FEMALE",
-    "category": "HEALTH RELATED",
+    "age": "3",
+    "gender": "1",
+    "category": "3",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 27
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 28,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "MIDDLE AGE",
-    "gender": "FEMALE",
-    "category": "ETHICS AND SPIRITUALITY",
+    "age": "3",
+    "gender": "1",
+    "category": "4",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 12
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 13,
         "max": 17
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 18,
         "max": 24
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 25,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "MIDDLE AGE",
-    "gender": "MALE",
-    "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+    "age": "3",
+    "gender": "0",
+    "category": "0",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 15
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 16,
         "max": 23
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 24,
         "max": 31
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 32,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "MIDDLE AGE",
-    "gender": "MALE",
-    "category": "PROFESSION CAREER PURPOSE",
+    "age": "3",
+    "gender": "0",
+    "category": "1",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 22
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 23,
         "max": 29
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 30,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "MIDDLE AGE",
-    "gender": "MALE",
-    "category": "SURROUNDING SECURITY COMMUNITY",
+    "age": "3",
+    "gender": "0",
+    "category": "2",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 28
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 29,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "MIDDLE AGE",
-    "gender": "MALE",
-    "category": "HEALTH RELATED",
+    "age": "3",
+    "gender": "0",
+    "category": "3",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 27
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 28,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "MIDDLE AGE",
-    "gender": "MALE",
-    "category": "ETHICS AND SPIRITUALITY",
+    "age": "3",
+    "gender": "0",
+    "category": "4",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 12
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 13,
         "max": 17
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 18,
         "max": 24
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 25,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "OLD AGE",
-    "gender": "FEMALE",
-    "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+    "age": "4",
+    "gender": "1",
+    "category": "0",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 28
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 29,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "OLD AGE",
-    "gender": "FEMALE",
-    "category": "PROFESSION CAREER PURPOSE",
+    "age": "4",
+    "gender": "1",
+    "category": "1",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 22
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 23,
         "max": 29
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 30,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "OLD AGE",
-    "gender": "FEMALE",
-    "category": "SURROUNDING SECURITY COMMUNITY",
+    "age": "4",
+    "gender": "1",
+    "category": "2",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 20
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 21,
         "max": 27
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 28,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "OLD AGE",
-    "gender": "FEMALE",
-    "category": "HEALTH RELATED",
+    "age": "4",
+    "gender": "1",
+    "category": "3",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 13
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 14,
         "max": 20
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 21,
         "max": 26
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 27,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "OLD AGE",
-    "gender": "FEMALE",
-    "category": "ETHICS AND SPIRITUALITY",
+    "age": "4",
+    "gender": "1",
+    "category": "4",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 12
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 13,
         "max": 17
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 18,
         "max": 23
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 24,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "OLD AGE",
-    "gender": "MALE",
-    "category": "PERSONAL SOCIAL FAMILY RELATIONSHIP",
+    "age": "4",
+    "gender": "0",
+    "category": "0",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 15
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 16,
         "max": 23
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 24,
         "max": 31
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 32,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "OLD AGE",
-    "gender": "MALE",
-    "category": "PROFESSION CAREER PURPOSE",
+    "age": "4",
+    "gender": "0",
+    "category": "1",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 27
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 28,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "OLD AGE",
-    "gender": "MALE",
-    "category": "SURROUNDING SECURITY COMMUNITY",
+    "age": "4",
+    "gender": "0",
+    "category": "2",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 28
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 29,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "OLD AGE",
-    "gender": "MALE",
-    "category": "HEALTH RELATED",
+    "age": "4",
+    "gender": "0",
+    "category": "3",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 14
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 15,
         "max": 21
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 22,
         "max": 27
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 28,
         "max": 1000000
       }
     ]
   },
   {
-    "age": "OLD AGE",
-    "gender": "MALE",
-    "category": "ETHICS AND SPIRITUALITY",
+    "age": "4",
+    "gender": "0",
+    "category": "4",
     "gradeCriteria": [
       {
-        "grade": "SEVERE",
+        "grade": "3",
         "min": 0,
         "max": 12
       },
       {
-        "grade": "MODERATE",
+        "grade": "2",
         "min": 13,
         "max": 17
       },
       {
-        "grade": "MILD",
+        "grade": "1",
         "min": 18,
         "max": 24
       },
       {
-        "grade": "GOOD",
+        "grade": "0",
         "min": 25,
         "max": 1000000
       }

@@ -1,14 +1,14 @@
 import { buildCollection, buildProperty } from 'firecms'
 import { Service, ServiceDuration, ServiceType } from '@/types/service'
 
-const serviceTypeValues = Object.values(ServiceType).map((category) => ({
-  id: category,
+const serviceTypeValues = Object.values(ServiceType).map((category, index) => ({
+  id: index.toString(),
   value: category,
   label: category,
 }))
 
-const serviceDurationValues = Object.values(ServiceDuration).map((category) => ({
-  id: category,
+const serviceDurationValues = Object.values(ServiceDuration).map((category, index) => ({
+  id: index.toString(),
   value: category,
   label: category,
 }))

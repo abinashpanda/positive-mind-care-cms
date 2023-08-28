@@ -3,26 +3,26 @@ import { AgeGroup, Gender, QuestionCategory } from '@/types/question'
 import { Grade } from '@/types/score'
 import { Message } from '@/types/message'
 
-const ageGroupValues = Object.values(AgeGroup).map((age) => ({
-  id: age,
+const ageGroupValues = Object.values(AgeGroup).map((age, index) => ({
+  id: index.toString(),
   value: age,
   label: age,
 }))
 
-const genderValues = Object.values(Gender).map((gender) => ({
-  id: gender,
+const genderValues = Object.values(Gender).map((gender, index) => ({
+  id: index.toString(),
   value: gender,
   label: gender,
 }))
 
-const gradeValues = Object.values(Grade).map((grade) => ({
-  id: grade,
+const gradeValues = Object.values(Grade).map((grade, index) => ({
+  id: index.toString(),
   value: grade,
   label: grade,
 }))
 
-const questionCategoryValues = Object.values(QuestionCategory).map((questionCategory) => ({
-  id: questionCategory,
+const questionCategoryValues = Object.values(QuestionCategory).map((questionCategory, index) => ({
+  id: index.toString(),
   value: questionCategory,
   label: questionCategory,
 }))
