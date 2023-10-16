@@ -84,6 +84,10 @@ const servicesCollection = buildCollection<Service>({
             name: 'Duration',
             enumValues: serviceDurationValues,
           }),
+          shopLink: buildProperty({
+            dataType: 'string',
+            name: 'Shop Link',
+          }),
           servicePriceImage: buildProperty({
             dataType: 'string',
             name: 'Service Price Image',
