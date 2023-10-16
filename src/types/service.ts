@@ -17,6 +17,7 @@ export type ServicePrice = {
   name: string
   description: string
   duration: ServiceDuration
+  shopLink?: string
 }
 
 export type Service = {

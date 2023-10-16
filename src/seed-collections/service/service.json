@@ -10,28 +10,32 @@
         "name": "Monthly Package",
         "price": 2500,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "0"
+        "duration": "0",
+        "shopLink": "https://samvedantest.myinstamojo.com/product/4421054/schizophrenia-disorder-monthly-package-2e17a/"
       },
       {
         "id": "quarterly-package",
         "name": "Quarterly Package",
         "price": 5000,
         "description": "1 session per week \n 12 sessions in a quarter \n 45 minutes to 1 hour session",
-        "duration": "1"
+        "duration": "1",
+        "shopLink": "https://samvedantest.myinstamojo.com/product/4421060/schizophrenia-disorder-quaterly-package/"
       },
       {
         "id": "half-yearly-package",
         "name": "Half Yearly Package",
         "price": 10000,
         "description": "1 session per week \n 25 sessions in a Half Year \n 45 minutes to 1 hour session",
-        "duration": "2"
+        "duration": "2",
+        "shopLink": "https://samvedantest.myinstamojo.com/product/4421067/schizophrenia-disorder-half-yearly-package/"
       },
       {
         "id": "yearly-package",
         "name": "Yearly Package",
         "price": 15000,
         "description": "1 session per week \n 4 sessions in a month \n 45 minutes to 1 hour session",
-        "duration": "3"
+        "duration": "3",
+        "shopLink": "https://samvedantest.myinstamojo.com/product/4421068/schizophrenia-disorder-yearly-package-d17f2/"
       }
     ]
   },
