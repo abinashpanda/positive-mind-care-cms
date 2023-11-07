@@ -1,5 +1,6 @@
 import admin from 'firebase-admin'
 import chalk from 'chalk'
+// @ts-expect-error
 import serviceAccount from '../service-account.json'
 import questionData from './question.json'
 
