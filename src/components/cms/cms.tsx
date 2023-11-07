@@ -11,6 +11,7 @@ import messageCollection from '@/collections/messages'
 import testsCollection from '@/collections/tests'
 import questionCollection from '@/collections/question'
 import scoreCollection from '@/collections/score'
+import doctorsCollection from '@/collections/doctors'
 
 const firebaseConfig = {
   apiKey: env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -32,7 +33,14 @@ export default function CMS() {
       name={'Positive Mind Care'}
       basePath={'/cms'}
       authentication={appAuthenticator}
-      collections={[servicesCollection, messageCollection, testsCollection, questionCollection, scoreCollection]}
+      collections={[
+        servicesCollection,
+        messageCollection,
+        testsCollection,
+        questionCollection,
+        scoreCollection,
+        doctorsCollection,
+      ]}
       firebaseConfig={firebaseConfig}
     />
   )
