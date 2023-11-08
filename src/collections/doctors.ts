@@ -1,7 +1,12 @@
 import { buildCollection, buildProperty } from 'firecms'
-import { Doctor, DoctorServiceType } from '@/types/doctor'
+import { Doctor, DoctorServiceType, DoctorType } from '@/types/doctor'
 
-const doctorTypeValues = Object.values(DoctorServiceType).map((category, index) => ({
+const doctorTypeValues = Object.values(DoctorType).map((category, index) => ({
+  id: index.toString(),
+  value: category,
+  label: category,
+}))
+const doctorServiceTypeValues = Object.values(DoctorServiceType).map((category, index) => ({
   id: index.toString(),
   value: category,
   label: category,
@@ -46,7 +51,7 @@ const doctorsCollection = buildCollection<Doctor>({
     }),
     type: buildProperty({
       dataType: 'string',
-      name: 'Doctor Service Type',
+      name: 'Doctor Type',
       enumValues: doctorTypeValues,
     }),
     services: buildProperty({
@@ -70,6 +75,11 @@ const doctorsCollection = buildCollection<Doctor>({
           description: buildProperty({
             dataType: 'string',
             name: 'Description',
+          }),
+          doctorServiceType: buildProperty({
+            dataType: 'string',
+            name: 'Doctor Service Type',
+            enumValues: doctorServiceTypeValues,
           }),
 
           price: buildProperty({

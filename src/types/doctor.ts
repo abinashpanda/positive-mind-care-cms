@@ -1,6 +1,7 @@
 export enum DoctorType {
   PSYCHOLOGIST = 'PSYCHOLOGIST',
   MEDITATION_EXPERT = 'MEDICATION_EXPERT',
+  PSYCHIATRIST = 'PSYCHIATRIST',
 }
 export type Doctor = {
   id: string
@@ -20,6 +21,7 @@ export type DoctorService = {
   id: string
   name: string
   description: string
+  doctorServiceType:DoctorServiceType
   price: Number
   url: string
   doctorId: string
