@@ -27,3 +27,11 @@ export type DoctorService = {
   doctorId: string
   doctor: Doctor
 }
+
+export type DoctorCategory = {
+  id: string
+  type: DoctorType
+  name: string
+  description: string
+  image: string
+}
