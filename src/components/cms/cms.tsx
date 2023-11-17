@@ -13,6 +13,8 @@ import questionCollection from '@/collections/question'
 import scoreCollection from '@/collections/score'
 import doctorsCollection from '@/collections/doctors'
 import doctorCategoriesCollection from '@/collections/doctor-categories'
+import blogCollection from '@/collections/blog'
+import pmcTestCollection from '@/collections/pmc-test'
 
 const firebaseConfig = {
   apiKey: env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -42,6 +44,8 @@ export default function CMS() {
         scoreCollection,
         doctorsCollection,
         doctorCategoriesCollection,
+        blogCollection,
+        pmcTestCollection
       ]}
       firebaseConfig={firebaseConfig}
     />
