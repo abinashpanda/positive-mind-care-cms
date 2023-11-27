@@ -1,18 +1,24 @@
 import { NextResponse } from 'next/server'
+import { z } from 'zod'
 
 const BASE_URL = 'https://api.instamojo.com'
+
+const responseSchema = z.object({
+  phone: z.string({ required_error: 'Phone number is required!' }).length(10, 'Invalid phone number'),
+})
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
   const phone = searchParams.get('phone')
 
-  if (!phone) {
-    return NextResponse.json({ status: 'error', message: 'Phone number with is required' }, { status: 400 })
+  const queryParams = responseSchema.safeParse({ phone })
+  if (!queryParams.success) {
+    return NextResponse.json({ status: 'error', message: queryParams.error.message }, { status: 400 })
   }
 
   const client_id = process.env.INSTAMOJO_CLIENT_ID
   const client_secret = process.env.INSTAMOJO_CLIENT_SECRET
-  const phoneWithCountryCode = `+91${phone}`
+  const phoneWithCountryCode = `+91${queryParams.data.phone}`
 
   try {
     /** Generating access token */
