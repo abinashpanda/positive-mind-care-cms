@@ -3,6 +3,7 @@ import { z } from 'zod'
 import { validatePaymentVerification } from 'razorpay/dist/utils/razorpay-utils'
 import admin from 'firebase-admin'
 import { env } from '@/env.mjs'
+// @ts-expect-error
 import serviceAccount from '@/service-account.json'
 
 const paymentSuccessSchema = z.object({
