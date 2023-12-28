@@ -21,8 +21,8 @@ export type DoctorService = {
   id: string
   name: string
   description: string
-  doctorServiceType:DoctorServiceType
-  price: Number
+  doctorServiceType: DoctorServiceType
+  price: number
   url: string
   doctorId: string
   doctor: Doctor

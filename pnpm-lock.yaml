@@ -39,6 +39,7 @@ specifiers:
   react-router-dom: ^6.15.0
   resend: ^2.0.0
   tailwindcss: 3.3.3
+  ts-pattern: ^5.0.6
   tsup: ^7.2.0
   typescript: ^5.1.6
   zod: ^3.22.2
@@ -68,6 +69,7 @@ dependencies:
   react-router-dom: 6.20.0_biqbaboplfbrettd7655fr4n2y
   resend: 2.0.0
   tailwindcss: 3.3.3
+  ts-pattern: 5.0.6
   zod: 3.22.4
 
 devDependencies:
@@ -6752,6 +6754,10 @@ packages:
 
   /ts-interface-checker/0.1.13:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
+
+  /ts-pattern/5.0.6:
+    resolution: {integrity: sha512-Y+jOjihlFriWzcBjncPCf2/am+Hgz7LtsWs77pWg5vQQKLQj07oNrJryo/wK2G0ndNaoVn2ownFMeoeAuReu3Q==}
+    dev: false
 
   /tsconfig-paths/3.14.2:
     resolution: {integrity: sha512-o/9iXgCYc5L/JxCHPe3Hvh8Q/2xm5Z+p18PESBU6Ff33695QnCHBEjcytY2q19ua7Mbl/DavtBOLq+oG0RCL+g==}

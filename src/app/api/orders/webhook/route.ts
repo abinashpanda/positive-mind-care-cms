@@ -1,10 +1,8 @@
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
 import { validatePaymentVerification } from 'razorpay/dist/utils/razorpay-utils'
-import admin from 'firebase-admin'
 import { env } from '@/env.mjs'
-// @ts-expect-error
-import serviceAccount from '@/service-account.json'
+import { firestore } from '@/utils/firebase'
 
 const paymentSuccessSchema = z.object({
   productId: z.string(),
@@ -16,11 +14,6 @@ const paymentSuccessSchema = z.object({
     razorpay_signature: z.string(),
   }),
 })
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount as admin.ServiceAccount),
-})
-const firestore = admin.firestore()
 
 export async function POST(req: Request) {
   const data = await req.json()
