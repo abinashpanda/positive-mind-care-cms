@@ -6,6 +6,7 @@ declare global {
   var __admin:
     | {
         firestore: admin.firestore.Firestore | null
+        auth: admin.auth.Auth | null
       }
     | undefined
 }
@@ -14,6 +15,7 @@ declare global {
 if (!global.__admin) {
   global.__admin = {
     firestore: null,
+    auth: null,
   }
 }
 
@@ -32,7 +34,19 @@ export function getFirestore() {
     credential: admin.credential.cert(serviceAccount as admin.ServiceAccount),
   })
 
-  // Wait for client to be initialized
   cache.firestore = admin.firestore()
+  cache.auth = admin.auth()
+
   return cache.firestore
+}
+
+export function getAuth() {
+  if (cache.auth) {
+    return cache.auth
+  }
+
+  cache.firestore = admin.firestore()
+  cache.auth = admin.auth()
+
+  return cache.auth
 }

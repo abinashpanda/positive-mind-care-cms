@@ -1,17 +1,33 @@
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
-import { validatePaymentVerification } from 'razorpay/dist/utils/razorpay-utils'
-import { env } from '@/env.mjs'
-import { firestore } from '@/utils/firebase'
+import { getAuth, getFirestore } from '@/utils/firebase'
 
 const paymentSuccessSchema = z.object({
-  productId: z.string(),
-  orderId: z.string(),
-  userId: z.string(),
-  paymentInfo: z.object({
-    razorpay_payment_id: z.string(),
-    razorpay_order_id: z.string(),
-    razorpay_signature: z.string(),
+  payload: z.object({
+    payment: z.object({
+      entity: z.object({
+        id: z.string(),
+        amount: z.number(),
+        currency: z.string(),
+        order_id: z.string(),
+        contact: z.string(),
+      }),
+    }),
+    order: z.object({
+      entity: z.object({
+        id: z.string(),
+        amount: z.number(),
+        currency: z.literal('INR'),
+        status: z.literal('paid'),
+        notes: z.object({
+          name: z.string(),
+          description: z.string().optional(),
+          entityId: z.string(),
+          priceId: z.string(),
+        }),
+        created_at: z.number(),
+      }),
+    }),
   }),
 })
 
@@ -23,25 +39,21 @@ export async function POST(req: Request) {
     return NextResponse.json({ success: false, error: result.error.flatten().fieldErrors }, { status: 400 })
   }
 
-  /** Verifying payment request */
-  const isPaymentValid = validatePaymentVerification(
-    {
-      order_id: result.data.paymentInfo.razorpay_order_id,
-      payment_id: result.data.paymentInfo.razorpay_payment_id,
-    },
-    result.data.paymentInfo.razorpay_signature,
-    env.RAZORPAY_KEY_SECRET,
-  )
-  if (!isPaymentValid) {
-    return NextResponse.json({ success: false, error: 'Invalid payment request!' }, { status: 400 })
+  const auth = getAuth()
+  const user = await auth.getUserByPhoneNumber(result.data.payload.payment.entity.contact)
+  if (!user) {
+    return NextResponse.json({ success: false, error: 'User does not exists!' }, { status: 400 })
   }
 
   try {
+    const order = result.data.payload.order.entity
+    const firestore = getFirestore()
     const purchasedOrderCollectionRef = firestore.collection('purchasedOrders')
     await purchasedOrderCollectionRef.add({
-      productId: result.data.productId,
-      orderId: result.data.orderId,
-      userId: result.data.userId,
+      entityId: order.notes.entityId,
+      priceId: order.notes.priceId,
+      orderId: order.id,
+      userId: user.uid,
       createdAt: new Date(),
     })
 
