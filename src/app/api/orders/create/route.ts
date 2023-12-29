@@ -12,7 +12,16 @@ const createOrderSchema = z.discriminatedUnion('type', [
   // z.object({ type: z.literal('test'), testId: z.string() }),
 ])
 
-type Product = { name: string; description?: string; price: number; entityId: string; priceId: string }
+export type OrderType = z.infer<typeof createOrderSchema>['type']
+
+type Product = {
+  name: string
+  description?: string
+  price: number
+  entityId: string
+  priceId: string
+  type: OrderType
+}
 
 export async function POST(req: Request) {
   const data = await req.json()
@@ -26,7 +35,7 @@ export async function POST(req: Request) {
 
   const product = await match(result.data)
     .returnType<Promise<Product | null>>()
-    .with({ type: 'service' }, async ({ serviceId, priceId }) => {
+    .with({ type: 'service' }, async ({ serviceId, priceId, type }) => {
       const serviceCollection = firestore.collection('services')
       const service = await serviceCollection.where('id', '==', serviceId).get()
       if (service.empty) {
@@ -39,6 +48,7 @@ export async function POST(req: Request) {
       if (!price) return null
 
       return {
+        type,
         name: item.name,
         description: item.description,
         price: price.price,
@@ -46,7 +56,7 @@ export async function POST(req: Request) {
         priceId,
       }
     })
-    .with({ type: 'doctor' }, async ({ doctorId, priceId }) => {
+    .with({ type: 'doctor' }, async ({ doctorId, priceId, type }) => {
       const doctorsCollection = firestore.collection('doctors')
       const doctor = await doctorsCollection.where('id', '==', doctorId).get()
       if (doctor.empty) {
@@ -59,6 +69,7 @@ export async function POST(req: Request) {
       if (!price) return null
 
       return {
+        type,
         name: item.name,
         description: item.description,
         price: price.price,

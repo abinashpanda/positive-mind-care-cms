@@ -24,6 +24,7 @@ const paymentSuccessSchema = z.object({
           description: z.string().optional(),
           entityId: z.string(),
           priceId: z.string(),
+          type: z.enum(['service', 'doctor', 'test']),
         }),
         created_at: z.number(),
       }),
@@ -50,6 +51,7 @@ export async function POST(req: Request) {
     const firestore = getFirestore()
     const purchasedOrderCollectionRef = firestore.collection('purchasedOrders')
     await purchasedOrderCollectionRef.add({
+      type: order.notes.type,
       entityId: order.notes.entityId,
       priceId: order.notes.priceId,
       orderId: order.id,
