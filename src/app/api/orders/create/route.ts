@@ -5,11 +5,12 @@ import { getFirestore } from '@/utils/firebase'
 import { Service } from '@/types/service'
 import { Doctor } from '@/types/doctor'
 import { razorpayInstance } from '@/utils/razorpay'
+import { ComprehensiveTest } from '@/types/comprehensive-test'
 
 const createOrderSchema = z.discriminatedUnion('type', [
   z.object({ type: z.literal('service'), serviceId: z.string(), priceId: z.string() }),
   z.object({ type: z.literal('doctor'), doctorId: z.string(), priceId: z.string() }),
-  // z.object({ type: z.literal('test'), testId: z.string() }),
+  z.object({ type: z.literal('test'), testId: z.string() }),
 ])
 
 export type OrderType = z.infer<typeof createOrderSchema>['type']
@@ -19,7 +20,7 @@ type Product = {
   description?: string
   price: number
   entityId: string
-  priceId: string
+  priceId?: string
   type: OrderType
 }
 
@@ -75,6 +76,24 @@ export async function POST(req: Request) {
         price: price.price,
         entityId: doctorId,
         priceId,
+      }
+    })
+    .with({ type: 'test' }, async ({ testId, type }) => {
+      const comprehensiveTestCollection = firestore.collection('comprehensive-tests')
+      const test = await comprehensiveTestCollection.where('id', '==', testId).get()
+
+      if (test.empty) {
+        return null
+      }
+
+      const item = test.docs[0].data() as ComprehensiveTest
+
+      return {
+        type,
+        name: item.name,
+        description: item.description,
+        price: item.price,
+        entityId: item.id,
       }
     })
     .exhaustive()

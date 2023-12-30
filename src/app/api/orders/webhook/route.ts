@@ -21,12 +21,11 @@ const paymentSuccessSchema = z.object({
         status: z.literal('paid'),
         notes: z.object({
           name: z.string(),
-          description: z.string().optional(),
+          description: z.string().optional().nullable(),
           entityId: z.string(),
-          priceId: z.string(),
+          priceId: z.string().optional(),
           type: z.enum(['service', 'doctor', 'test']),
         }),
-        created_at: z.number(),
       }),
     }),
   }),
@@ -36,6 +35,7 @@ export async function POST(req: Request) {
   const data = await req.json()
 
   const result = paymentSuccessSchema.safeParse(data)
+
   if (!result.success) {
     return NextResponse.json({ success: false, error: result.error.flatten().fieldErrors }, { status: 400 })
   }
@@ -53,14 +53,14 @@ export async function POST(req: Request) {
     await purchasedOrderCollectionRef.add({
       type: order.notes.type,
       entityId: order.notes.entityId,
-      priceId: order.notes.priceId,
+      priceId: order.notes.priceId ?? null,
       orderId: order.id,
       userId: user.uid,
       createdAt: new Date(),
     })
 
     return NextResponse.json({ success: true, message: 'Product purchased successfully!' })
-  } catch {
+  } catch (error) {
     return NextResponse.json({ success: false, error: 'Internal server error' }, { status: 500 })
   }
 }
