@@ -1,15 +1,9 @@
-import admin from 'firebase-admin'
 import chalk from 'chalk'
-// @ts-expect-error
-import serviceAccount from '../service-account.json'
 import testData from './tests.json'
-
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount as admin.ServiceAccount),
-})
-const firestore = admin.firestore()
+import { getFirestore } from '@/utils/firebase'
 
 async function main() {
+  const firestore = getFirestore()
   const testsCollectionRef = firestore.collection('tests')
   for (const test of testData) {
     // eslint-disable-next-line no-console

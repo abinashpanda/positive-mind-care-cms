@@ -1,16 +1,52 @@
-import { initializeApp, FirebaseApp } from 'firebase/app'
-import { getAuth } from 'firebase/auth'
-import { getFirestore } from 'firebase/firestore'
-import { env } from '@/env.mjs'
+import admin from 'firebase-admin'
+import serviceAccount from '@/service-account.json'
 
-let app: FirebaseApp | undefined
-if (!app) {
-  app = initializeApp({
-    apiKey: env.NEXT_PUBLIC_FIREBASE_API_KEY,
-    authDomain: env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-    projectId: env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  })
+declare global {
+  // eslint-disable-next-line no-var
+  var __admin:
+    | {
+        firestore: admin.firestore.Firestore | null
+        auth: admin.auth.Auth | null
+      }
+    | undefined
 }
 
-export const auth = getAuth(app)
-export const firestore = getFirestore(app)
+// Persist admin
+if (!global.__admin) {
+  global.__admin = {
+    firestore: null,
+    auth: null,
+  }
+}
+
+const cache = global.__admin
+
+/**
+ * Gets the firestore instance
+ */
+export function getFirestore() {
+  // Return cached firestore if it exists
+  if (cache.firestore) {
+    return cache.firestore
+  }
+
+  admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount as admin.ServiceAccount),
+  })
+
+  cache.firestore = admin.firestore()
+  cache.auth = admin.auth()
+
+  return cache.firestore
+}
+
+export function getAuth() {
+  if (cache.auth) {
+    return cache.auth
+  }
+
+  cache.firestore = admin.firestore()
+  cache.auth = admin.auth()
+
+  return cache.auth
+}

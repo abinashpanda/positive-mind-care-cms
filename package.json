@@ -32,12 +32,14 @@
     "firecms": "^2.0.5",
     "next": "13.4.16",
     "postcss": "8.4.28",
+    "razorpay": "^2.9.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router": "^6.15.0",
     "react-router-dom": "^6.15.0",
     "resend": "^2.0.0",
     "tailwindcss": "3.3.3",
+    "ts-pattern": "^5.0.6",
     "zod": "^3.22.2"
   },
   "devDependencies": {
