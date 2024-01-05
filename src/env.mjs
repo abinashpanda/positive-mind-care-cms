@@ -13,6 +13,9 @@ const env = createEnv({
   server: {
     RAZORPAY_KEY_ID: z.string(),
     RAZORPAY_KEY_SECRET: z.string(),
+    FIREBASE_ADMIN_CLIENT_EMAIL: z.string().email(),
+    FIREBASE_ADMIN_PRIVATE_KEY: z.string().min(1),
+    FIREBASE_ADMIN_PROJECT_ID: z.string().min(1),
   },
   runtimeEnv: {
     NEXT_PUBLIC_FIREBASE_API_KEY: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -23,6 +26,11 @@ const env = createEnv({
     NEXT_PUBLIC_FIREBASE_APP_ID: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
     RAZORPAY_KEY_ID: process.env.RAZORPAY_KEY_ID,
     RAZORPAY_KEY_SECRET: process.env.RAZORPAY_KEY_SECRET,
+    FIREBASE_ADMIN_CLIENT_EMAIL: process.env.FIREBASE_ADMIN_CLIENT_EMAIL,
+    FIREBASE_ADMIN_PRIVATE_KEY: process.env.FIREBASE_ADMIN_PRIVATE_KEY
+      ? Buffer.from(process.env.FIREBASE_ADMIN_PRIVATE_KEY, 'base64').toString()
+      : undefined,
+    FIREBASE_ADMIN_PROJECT_ID: process.env.FIREBASE_ADMIN_PROJECT_ID,
   },
 })
 

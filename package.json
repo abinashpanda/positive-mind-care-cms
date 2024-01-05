@@ -7,6 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "check-types": "tsc --noEmit --incremental",
+    "check-types:watch": "tsc --noEmit --incremental --watch",
     "seed:tests": "tsup ./src/seed-collections/tests/tests.ts --onSuccess \"node ./dist/tests.js\"",
     "seed:services": "tsup ./src/seed-collections/service/services.ts --onSuccess \"node ./dist/services.js\"",
     "seed:messages": "tsup ./src/seed-collections/message/messages.ts --onSuccess \"node ./dist/messages.js\"",
