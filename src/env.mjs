@@ -27,7 +27,9 @@ const env = createEnv({
     RAZORPAY_KEY_ID: process.env.RAZORPAY_KEY_ID,
     RAZORPAY_KEY_SECRET: process.env.RAZORPAY_KEY_SECRET,
     FIREBASE_ADMIN_CLIENT_EMAIL: process.env.FIREBASE_ADMIN_CLIENT_EMAIL,
-    FIREBASE_ADMIN_PRIVATE_KEY: Buffer.from(process.env.FIREBASE_ADMIN_PRIVATE_KEY, 'base64').toString(),
+    FIREBASE_ADMIN_PRIVATE_KEY: process.env.FIREBASE_ADMIN_PRIVATE_KEY
+      ? Buffer.from(process.env.FIREBASE_ADMIN_PRIVATE_KEY, 'base64').toString()
+      : undefined,
     FIREBASE_ADMIN_PROJECT_ID: process.env.FIREBASE_ADMIN_PROJECT_ID,
   },
 })
