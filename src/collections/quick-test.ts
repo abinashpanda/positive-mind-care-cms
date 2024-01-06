@@ -32,6 +32,18 @@ const quickTestCollection = buildCollection<QuickTest>({
         },
       },
     }),
+    questionImage: buildProperty({
+      dataType: 'string',
+      name: 'Question Image',
+      storage: {
+        mediaType: 'image',
+        storagePath: 'quick-test-images',
+        acceptedFiles: ['image/*'],
+        metadata: {
+          cacheControl: 'max-age=1000000',
+        },
+      },
+    }),
     questions: buildProperty({
       dataType: 'array',
       name: 'Questions',
@@ -63,18 +75,6 @@ const quickTestCollection = buildCollection<QuickTest>({
                 score: buildProperty({
                   dataType: 'number',
                   name: 'Score',
-                }),
-                image: buildProperty({
-                  dataType: 'string',
-                  name: 'Image',
-                  storage: {
-                    mediaType: 'image',
-                    storagePath: 'quick-test-images',
-                    acceptedFiles: ['image/*'],
-                    metadata: {
-                      cacheControl: 'max-age=1000000',
-                    },
-                  },
                 }),
               },
             },

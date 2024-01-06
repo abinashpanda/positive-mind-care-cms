@@ -4,6 +4,7 @@ export type QuickTest = {
   image: string
   questions: Question[]
   scores: Score[]
+  questionImage: string
 }
 
 type Question = {
@@ -16,7 +17,6 @@ type Answer = {
   answerEnglish: string
   answerHindi: string
   score: number
-  image: string
 }
 
 type Score = {
