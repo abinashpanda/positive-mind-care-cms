@@ -1,0 +1,140 @@
+{
+  "name": "Alcohol Addiction",
+  "questions": [
+    {
+      "title": "How often do you have a drink containing alcohol ?",
+      "options": [
+        { "id": 1, "label": "a) Never", "weightage": 0 },
+        { "id": 2, "label": "b) Monthly or less", "weightage": 1 },
+        { "id": 3, "label": "c) 2-4 times a month", "weightage": 2 },
+        { "id": 4, "label": "d) 2-3 times a week", "weightage": 3 },
+        { "id": 5, "label": "e) 4 or more times a week", "weightage": 4 }
+      ]
+    },
+    {
+      "id": 112,
+      "title": "How many drinks containing alcohol do you have on a typical day when you are drinking ?",
+      "options": [
+        { "id": 6, "label": "a) 1 or 2", "weightage": 0 },
+        { "id": 7, "label": "b) 3 or 4", "weightage": 1 },
+        { "id": 8, "label": "c) 5 or 6", "weightage": 2 },
+        { "id": 9, "label": "d) 7 or 9", "weightage": 3 },
+        { "id": 10, "label": "e) 10 or more", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 113,
+      "title": "How often do you have six or more drinks on one occasion ?",
+      "options": [
+        { "id": 11, "label": "a) Never", "weightage": 0 },
+        { "id": 12, "label": "b) Less than monthly", "weightage": 1 },
+        { "id": 13, "label": "c) Monthly", "weightage": 2 },
+        { "id": 14, "label": "d) Weekly", "weightage": 3 },
+        { "id": 15, "label": "e) Daily or almost Daily", "weightage": 4 }
+      ]
+    },
+    {
+      "id": 114,
+      "title": "How often during the last year have you found that you were not able to stop drinking once you had started ?",
+      "options": [
+        { "id": 16, "label": "a) Never", "weightage": 0 },
+        { "id": 17, "label": "b) Less than monthly", "weightage": 1 },
+        { "id": 18, "label": "c) Monthly", "weightage": 2 },
+        { "id": 19, "label": "d) Weekly", "weightage": 3 },
+        { "id": 20, "label": "e) Daily or Almost Daily", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 115,
+      "title": "How often during the last year you failed to do so what was normally expected of you because of drinking ?",
+      "options": [
+        { "id": 21, "label": "a) Never", "weightage": 0 },
+        { "id": 22, "label": "b) Less than monthly", "weightage": 1 },
+        { "id": 23, "label": "c) Monthly", "weightage": 2 },
+        { "id": 24, "label": "d) Weekly", "weightage": 3 },
+        { "id": 25, "label": "e) Daily or Almost Daily", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 116,
+      "title": "How often during the last year have you needed a first drink in the morning to get yourself going after a heavy drinking session ?",
+      "options": [
+        { "id": 26, "label": "a) Never", "weightage": 0 },
+        { "id": 27, "label": "b) Less than monthly", "weightage": 1 },
+        { "id": 28, "label": "c) Monthly", "weightage": 2 },
+        { "id": 29, "label": "d) Weekly", "weightage": 3 },
+        { "id": 30, "label": "e) Daily or Almost Daily", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 117,
+      "title": "How often during the last year have you had a feeling of guilt or remorse after drinking ?",
+      "options": [
+        { "id": 31, "label": "a) Never", "weightage": 0 },
+        { "id": 32, "label": "b) Less than monthly", "weightage": 1 },
+        { "id": 33, "label": "c) Monthly", "weightage": 2 },
+        { "id": 34, "label": "d) Weekly", "weightage": 3 },
+        { "id": 35, "label": "e) Daily or Almost Daily", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 118,
+      "title": "How often during the last year have you been unable to remember what happened the night before because of your drinking ?",
+      "options": [
+        { "id": 36, "label": "a) Never", "weightage": 0 },
+        { "id": 37, "label": "b) Less than monthly", "weightage": 1 },
+        { "id": 38, "label": "c) Monthly", "weightage": 2 },
+        { "id": 39, "label": "d) Weekly", "weightage": 3 },
+        { "id": 40, "label": "e) Daily or Almost Daily", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 119,
+      "title": "Have you or someone else been injured because of your drinking ?",
+      "options": [
+        { "id": 41, "label": "a) No", "weightage": 0 },
+        { "id": 42, "label": "b) Yes, but not in the last year", "weightage": 2 },
+        { "id": 43, "label": "c) Yes, during the last year", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 120,
+      "title": "Has a relative, friend, doctor, or other healthcare   worker been concerned about your drinking or suggested that you cut down?",
+      "options": [
+        { "id": 44, "label": "a) No", "weightage": 0 },
+        { "id": 45, "label": "b) Yes, but not in the last year", "weightage": 2 },
+        { "id": 46, "label": "c) Yes, during the last year", "weightage": 4 }
+      ]
+    }
+  ],
+  "scores": [
+    {
+      "min": 0,
+      "max": 7,
+      "name": "Low",
+      "message": "",
+      "color": ""
+    },
+    {
+      "min": 8,
+      "max": 14,
+      "name": "Moderate",
+      "message": "",
+      "color": ""
+    },
+    {
+      "min": 15,
+      "max": 40,
+      "name": "Severe",
+      "message": "",
+      "color": ""
+    }
+  ]
+}
