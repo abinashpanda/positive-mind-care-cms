@@ -1,0 +1,254 @@
+{
+  "name": "Anxiety",
+  "questions": [
+    {
+      "id": 111,
+      "title": "I feel more nervous and anxious than usual.",
+      "options": [
+        { "id": 1, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 2, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 3, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 4, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 112,
+      "title": "I feel afraid for no reason at all.",
+      "options": [
+        { "id": 5, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 6, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 7, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 8, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 113,
+      "title": "I get upset easily or feel panicky.",
+      "options": [
+        { "id": 9, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 10, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 11, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 12, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 114,
+      "title": "I feel like I'm falling apart and going to pieces.",
+      "options": [
+        { "id": 13, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 14, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 15, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 16, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 115,
+      "title": "I feel that everything is all right and nothing bad will happen",
+      "options": [
+        { "id": 17, "label": "a) None or Little of the time.", "weightage": 4 },
+        { "id": 18, "label": "b) Some of the time", "weightage": 3 },
+        { "id": 19, "label": "c) Good part of the time.", "weightage": 2 },
+        { "id": 20, "label": "d) Most or all the time.", "weightage": 1 }
+      ]
+    },
+
+    {
+      "id": 116,
+      "title": "I am bothered of headaches, neck and back pains.",
+      "options": [
+        { "id": 21, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 22, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 23, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 24, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 117,
+      "title": "My arms and leg shake and tremble.",
+      "options": [
+        { "id": 25, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 26, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 27, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 28, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 118,
+      "title": "I feel weak and get tired easily.",
+      "options": [
+        { "id": 29, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 30, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 31, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 32, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 119,
+      "title": "I feel calm and can sit still easily.",
+      "options": [
+        { "id": 33, "label": "a) None or Little of the time.", "weightage": 4 },
+        { "id": 34, "label": "b) Some of the time", "weightage": 3 },
+        { "id": 35, "label": "c) Good part of the time.", "weightage": 2 },
+        { "id": 36, "label": "d) Most or all the time.", "weightage": 1 }
+      ]
+    },
+
+    {
+      "id": 120,
+      "title": "I feel my heart beating fast.",
+      "options": [
+        { "id": 37, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 38, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 39, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 40, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 121,
+      "title": "I am bothered by dizzy spells.",
+      "options": [
+        { "id": 41, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 42, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 43, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 44, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 122,
+      "title": "I have fainting spells or feel faint.",
+      "options": [
+        { "id": 45, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 46, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 47, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 48, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 123,
+      "title": "I can breathe in and out easily.",
+      "options": [
+        { "id": 49, "label": "a) None or Little of the time.", "weightage": 4 },
+        { "id": 50, "label": "b) Some of the time", "weightage": 3 },
+        { "id": 51, "label": "c) Good part of the time.", "weightage": 2 },
+        { "id": 52, "label": "d) Most or all the time.", "weightage": 1 }
+      ]
+    },
+
+    {
+      "id": 124,
+      "title": "I get feeling of numbness and tingling in my fingers and toes.",
+      "options": [
+        { "id": 53, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 54, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 55, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 56, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 125,
+      "title": "I am bothered by stomachaches or indigestion.",
+      "options": [
+        { "id": 57, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 58, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 59, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 60, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 126,
+      "title": "I have to empty my bladder often.",
+      "options": [
+        { "id": 61, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 62, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 63, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 64, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 127,
+      "title": "My hands are usually dry and warm.",
+      "options": [
+        { "id": 65, "label": "a) None or Little of the time.", "weightage": 4 },
+        { "id": 66, "label": "b) Some of the time", "weightage": 3 },
+        { "id": 67, "label": "c) Good part of the time.", "weightage": 2 },
+        { "id": 68, "label": "d) Most or all the time.", "weightage": 1 }
+      ]
+    },
+
+    {
+      "id": 128,
+      "title": "My face gets hot and blushes.",
+      "options": [
+        { "id": 69, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 70, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 71, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 72, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    },
+
+    {
+      "id": 129,
+      "title": "I feel asleep easily and get a good night's rest",
+      "options": [
+        { "id": 73, "label": "a) None or Little of the time.", "weightage": 4 },
+        { "id": 74, "label": "b) Some of the time", "weightage": 3 },
+        { "id": 75, "label": "c) Good part of the time.", "weightage": 2 },
+        { "id": 76, "label": "d) Most or all the time.", "weightage": 1 }
+      ]
+    },
+
+    {
+      "id": 130,
+      "title": "I have nightmares.",
+      "options": [
+        { "id": 77, "label": "a) None or Little of the time.", "weightage": 1 },
+        { "id": 78, "label": "b) Some of the time", "weightage": 2 },
+        { "id": 79, "label": "c) Good part of the time.", "weightage": 3 },
+        { "id": 80, "label": "d) Most or all the time.", "weightage": 4 }
+      ]
+    }
+  ],
+  "scores": [
+    {
+      "min": 0,
+      "max": 20,
+      "name": "Normal",
+      "message": "",
+      "color": ""
+    },
+    {
+      "min": 21,
+      "max": 40,
+      "name": "Mild",
+      "message": "",
+      "color": ""
+    },
+    {
+      "min": 41,
+      "max": 60,
+      "name": "Moderate",
+      "message": "",
+      "color": ""
+    },
+    {
+      "min": 61,
+      "max": 80,
+      "name": "Severe",
+      "message": "",
+      "color": ""
+    }
+  ]
+}
