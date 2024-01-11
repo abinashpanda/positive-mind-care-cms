@@ -4,6 +4,9 @@ import { Resend } from 'resend'
 import { getAuth, getFirestore } from '@/utils/firebase'
 import EmailTemplate from '@/app/_components/email-template'
 import { fetchDoctorById } from '@/queries/doctor'
+import { fetchProduct } from '@/utils/product'
+import { CreateOrderSchema } from '@/schema/order'
+import { sendPaymentConfirmationWhatsapp } from '@/utils/whatsapp'
 
 const paymentSuccessSchema = z.object({
   payload: z.object({
@@ -64,6 +67,24 @@ export async function POST(req: Request) {
       userId: user.uid,
       createdAt: new Date(),
     })
+
+    const data: CreateOrderSchema =
+      order.notes.type === 'doctor'
+        ? { type: 'doctor', doctorId: order.notes.entityId, priceId: order.notes.priceId! }
+        : order.notes.type === 'service'
+          ? { type: 'service', serviceId: order.notes.entityId, priceId: order.notes.priceId! }
+          : { type: 'test', testId: order.notes.entityId }
+
+    const product = await fetchProduct(data)
+    if (product) {
+      // Send Whatsapp confirmation
+      await sendPaymentConfirmationWhatsapp({
+        to: user.phoneNumber!,
+        amount: product.price,
+        orderName: `${product.name} ${product.priceName}`,
+        customerName: user.displayName ?? '',
+      })
+    }
 
     // Send email if the order is a doctor's appointment
     if (order.notes.type === 'doctor') {

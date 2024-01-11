@@ -11,7 +11,7 @@ export async function fetchDoctorById(doctorId: string) {
     return null
   }
 
-  const item = doctor.docs[0]
+  const item = doctor.docs[0].data() as Doctor
 
   return item
 }
