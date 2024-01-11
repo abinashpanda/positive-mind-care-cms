@@ -3,6 +3,7 @@ import { z } from 'zod'
 import { Resend } from 'resend'
 import { getAuth, getFirestore } from '@/utils/firebase'
 import EmailTemplate from '@/app/_components/email-template'
+import { fetchDoctorById } from '@/utils/doctor'
 
 const paymentSuccessSchema = z.object({
   payload: z.object({
@@ -66,12 +67,16 @@ export async function POST(req: Request) {
 
     // Send email if the order is a doctor's appointment
     if (order.notes.type === 'doctor') {
-      await resend.emails.send({
-        from: process.env.RESEND_EMAIL_FROM!,
-        to: result.data.payload.payment.entity.email,
-        subject: 'Schedule Your Appointment with Positive Mind Care - Your Path to Wellbeing',
-        react: EmailTemplate({ name: '' }),
-      })
+      const doctor = await fetchDoctorById(order.notes.entityId)
+
+      if (doctor && doctor.calendlyLink) {
+        await resend.emails.send({
+          from: process.env.RESEND_EMAIL_FROM!,
+          to: result.data.payload.payment.entity.email,
+          subject: 'Schedule Your Appointment with Positive Mind Care - Your Path to Wellbeing',
+          react: EmailTemplate({ name: '', calendlyLink: doctor.calendlyLink }),
+        })
+      }
     }
 
     return NextResponse.json({ success: true, message: 'Product purchased successfully!' })

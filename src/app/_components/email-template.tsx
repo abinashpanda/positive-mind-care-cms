@@ -1,8 +1,9 @@
 type EmailTemplateProps = {
   name: string
+  calendlyLink: string
 }
 
-export default function EmailTemplate({ name }: EmailTemplateProps) {
+export default function EmailTemplate({ name, calendlyLink }: EmailTemplateProps) {
   return (
     <div>
       <p>Dear {name},</p>
@@ -19,8 +20,7 @@ export default function EmailTemplate({ name }: EmailTemplateProps) {
       </p>
 
       <p>
-        Please follow this link to access our Calendly:{' '}
-        <a href="https://calendly.com/positivemindcare/doctors-appointment">Click Here</a>
+        Please follow this link to access our Calendly: <a href={calendlyLink}>Click Here</a>
       </p>
 
       <p>Here is a quick guide on how to schedule your appointment:</p>

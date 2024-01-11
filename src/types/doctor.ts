@@ -10,6 +10,7 @@ export type Doctor = {
   image: string
   type: DoctorType
   services: DoctorService[]
+  calendlyLink: string
 }
 
 export enum DoctorServiceType {

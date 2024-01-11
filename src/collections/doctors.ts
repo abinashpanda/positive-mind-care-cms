@@ -98,6 +98,11 @@ const doctorsCollection = buildCollection<Doctor>({
         },
       },
     }),
+    calendlyLink: buildProperty({
+      dataType: 'string',
+      name: 'Calendly Link',
+      url: true,
+    }),
   },
 })
 

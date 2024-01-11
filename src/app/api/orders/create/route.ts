@@ -3,9 +3,9 @@ import { z } from 'zod'
 import { match } from 'ts-pattern'
 import { getFirestore } from '@/utils/firebase'
 import { Service } from '@/types/service'
-import { Doctor } from '@/types/doctor'
 import { razorpayInstance } from '@/utils/razorpay'
 import { ComprehensiveTest } from '@/types/comprehensive-test'
+import { fetchDoctorById } from '@/utils/doctor'
 
 const createOrderSchema = z.discriminatedUnion('type', [
   z.object({ type: z.literal('service'), serviceId: z.string(), priceId: z.string() }),
@@ -58,21 +58,19 @@ export async function POST(req: Request) {
       }
     })
     .with({ type: 'doctor' }, async ({ doctorId, priceId, type }) => {
-      const doctorsCollection = firestore.collection('doctors')
-      const doctor = await doctorsCollection.where('id', '==', doctorId).get()
-      if (doctor.empty) {
+      const doctor = await fetchDoctorById(doctorId)
+      if (!doctor) {
         return null
       }
 
-      const item = doctor.docs[0].data() as Doctor
-      const price = item.services.find((service) => service.id === priceId)
+      const price = doctor.services.find((service) => service.id === priceId)
 
       if (!price) return null
 
       return {
         type,
-        name: item.name,
-        description: item.description,
+        name: doctor.name,
+        description: doctor.description,
         price: price.price,
         entityId: doctorId,
         priceId,
