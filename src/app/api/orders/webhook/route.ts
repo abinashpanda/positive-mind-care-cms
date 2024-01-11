@@ -3,7 +3,7 @@ import { z } from 'zod'
 import { Resend } from 'resend'
 import { getAuth, getFirestore } from '@/utils/firebase'
 import EmailTemplate from '@/app/_components/email-template'
-import { fetchDoctorById } from '@/utils/doctor'
+import { fetchDoctorById } from '@/queries/doctor'
 
 const paymentSuccessSchema = z.object({
   payload: z.object({

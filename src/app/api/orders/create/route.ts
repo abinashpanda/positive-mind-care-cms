@@ -5,7 +5,7 @@ import { getFirestore } from '@/utils/firebase'
 import { Service } from '@/types/service'
 import { razorpayInstance } from '@/utils/razorpay'
 import { ComprehensiveTest } from '@/types/comprehensive-test'
-import { fetchDoctorById } from '@/utils/doctor'
+import { fetchDoctorById } from '@/queries/doctor'
 
 const createOrderSchema = z.discriminatedUnion('type', [
   z.object({ type: z.literal('service'), serviceId: z.string(), priceId: z.string() }),
