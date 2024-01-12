@@ -75,7 +75,7 @@ const appointmentCollection = buildCollection<Appointment>({
       of: {
         dataType: 'string',
         enumValues: [
-          { id: 'BOOK_YOGA', label: 'Book Yoga' },
+          { id: 'BOOK_MEDITATION_SERVICE', label: 'Book Meditation Service' },
           { id: 'BOOK_COUNSELLING', label: 'Book Counselling' },
           { id: 'BOOK_DEEP_TMS', label: 'Book Deep TMS' },
         ],
