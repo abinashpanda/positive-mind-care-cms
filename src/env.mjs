@@ -16,6 +16,11 @@ const env = createEnv({
     FIREBASE_ADMIN_CLIENT_EMAIL: z.string().email(),
     FIREBASE_ADMIN_PRIVATE_KEY: z.string().min(1),
     FIREBASE_ADMIN_PROJECT_ID: z.string().min(1),
+    RESEND_API_KEY: z.string(),
+    RESEND_EMAIL_FROM: z.string(),
+    CALENDLY_ACCESS_TOKEN: z.string(),
+    WA_PHONE_NUMBER_ID: z.string(),
+    WA_CLOUD_API_ACCESS_TOKEN: z.string(),
   },
   runtimeEnv: {
     NEXT_PUBLIC_FIREBASE_API_KEY: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -31,6 +36,11 @@ const env = createEnv({
       ? Buffer.from(process.env.FIREBASE_ADMIN_PRIVATE_KEY, 'base64').toString()
       : undefined,
     FIREBASE_ADMIN_PROJECT_ID: process.env.FIREBASE_ADMIN_PROJECT_ID,
+    RESEND_API_KEY: process.env.RESEND_API_KEY,
+    RESEND_EMAIL_FROM: process.env.RESEND_EMAIL_FROM,
+    CALENDLY_ACCESS_TOKEN: process.env.CALENDLY_ACCESS_TOKEN,
+    WA_PHONE_NUMBER_ID: process.env.WA_PHONE_NUMBER_ID,
+    WA_CLOUD_API_ACCESS_TOKEN: process.env.WA_CLOUD_API_ACCESS_TOKEN,
   },
 })
 
