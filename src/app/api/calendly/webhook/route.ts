@@ -1,9 +1,11 @@
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
+import dayjs from 'dayjs'
 import { getAuth, getFirestore } from '@/utils/firebase'
 import { fetchDoctorByEventType } from '@/queries/doctor'
 import { isOrderPurchased } from '@/queries/order'
 import { cancelAppointment } from '@/queries/appointment'
+import { sendWhatsappMessageByTemplate } from '@/utils/whatsapp'
 
 const webhookSchema = z.object({
   created_at: z.string(),
@@ -59,14 +61,45 @@ export async function POST(request: Request) {
   }
 
   try {
+    const startTime = result.data.payload.scheduled_event.start_time
+
     await appointmentCollectionRef.add({
       user: user.uid,
       doctor: doctor.id,
-      startTime: result.data.payload.scheduled_event.start_time,
+      startTime,
       endTime: result.data.payload.scheduled_event.end_time,
       status: 'NOT_COMPLETED',
       cancelUrl: result.data.payload.cancel_url,
       rescheduleUrl: result.data.payload.reschedule_url,
+    })
+
+    // Sending whatsapp confirmation for booking
+    await sendWhatsappMessageByTemplate({
+      to: user.phoneNumber!,
+      templateName: 'appointment_conf',
+      components: [
+        {
+          type: 'body',
+          parameters: [
+            {
+              type: 'text',
+              text: doctor.name,
+            },
+            {
+              type: 'text',
+              text: dayjs(startTime).format('DD/MM/YYY'),
+            },
+            {
+              type: 'text',
+              text: dayjs(startTime).format('hh:mm A'),
+            },
+            {
+              type: 'text',
+              text: 'Positive Mind Care',
+            },
+          ],
+        },
+      ],
     })
 
     return NextResponse.json({ message: 'Appointment created successfully!' }, { status: 200 })

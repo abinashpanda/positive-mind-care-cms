@@ -22,7 +22,7 @@ dependencies:
     version: 5.14.18(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
   '@mui/x-date-pickers':
     specifier: ^5.0.20
-    version: 5.0.20(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@mui/material@5.14.18)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
+    version: 5.0.20(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@mui/material@5.14.18)(@types/react@18.2.20)(dayjs@1.11.10)(react-dom@18.2.0)(react@18.2.0)
   '@t3-oss/env-nextjs':
     specifier: ^0.6.1
     version: 0.6.1(typescript@5.3.2)(zod@3.22.4)
@@ -41,6 +41,9 @@ dependencies:
   cz-conventional-changelog:
     specifier: ^3.3.0
     version: 3.3.0(typescript@5.3.2)
+  dayjs:
+    specifier: ^1.11.10
+    version: 1.11.10
   firebase:
     specifier: ^9.23.0
     version: 9.23.0
@@ -291,7 +294,7 @@ packages:
       date-fns: 2.30.0
     dev: false
 
-  /@date-io/dayjs@2.17.0:
+  /@date-io/dayjs@2.17.0(dayjs@1.11.10):
     resolution: {integrity: sha512-Iq1wjY5XzBh0lheFA0it6Dsyv94e8mTiNR8vuTai+KopxDkreL3YjwTmZHxkgB7/vd0RMIACStzVgWvPATnDCA==}
     peerDependencies:
       dayjs: ^1.8.17
@@ -300,6 +303,7 @@ packages:
         optional: true
     dependencies:
       '@date-io/core': 2.17.0
+      dayjs: 1.11.10
     dev: false
 
   /@date-io/luxon@2.17.0:
@@ -1570,7 +1574,7 @@ packages:
       react-is: 18.2.0
     dev: false
 
-  /@mui/x-date-pickers@5.0.20(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@mui/material@5.14.18)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0):
+  /@mui/x-date-pickers@5.0.20(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@mui/material@5.14.18)(@types/react@18.2.20)(dayjs@1.11.10)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-ERukSeHIoNLbI1C2XRhF9wRhqfsr+Q4B1SAw2ZlU7CWgcG8UBOxgqRKDEOVAIoSWL+DWT6GRuQjOKvj6UXZceA==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1601,7 +1605,7 @@ packages:
       '@babel/runtime': 7.23.4
       '@date-io/core': 2.17.0
       '@date-io/date-fns': 2.17.0
-      '@date-io/dayjs': 2.17.0
+      '@date-io/dayjs': 2.17.0(dayjs@1.11.10)
       '@date-io/luxon': 2.17.0
       '@date-io/moment': 2.17.0
       '@emotion/react': 11.11.1(@types/react@18.2.20)(react@18.2.0)
@@ -1610,6 +1614,7 @@ packages:
       '@mui/utils': 5.14.18(@types/react@18.2.20)(react@18.2.0)
       '@types/react-transition-group': 4.4.9
       clsx: 1.2.1
+      dayjs: 1.11.10
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
@@ -3016,6 +3021,10 @@ packages:
     dependencies:
       '@babel/runtime': 7.23.4
 
+  /dayjs@1.11.10:
+    resolution: {integrity: sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==}
+    dev: false
+
   /debounce@1.2.1:
     resolution: {integrity: sha512-XRRe6Glud4rd/ZGQfiV1ruXSfbvfJedlV9Y6zOlP+2K04vBYiJEte6stfFkCP03aMnY5tsipamumUjL14fofug==}
     dev: false
@@ -3933,7 +3942,7 @@ packages:
       '@mui/icons-material': 5.14.18(@mui/material@5.14.18)(@types/react@18.2.20)(react@18.2.0)
       '@mui/lab': 5.0.0-alpha.153(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@mui/material@5.14.18)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
       '@mui/material': 5.14.18(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
-      '@mui/x-date-pickers': 5.0.20(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@mui/material@5.14.18)(@types/react@18.2.20)(react-dom@18.2.0)(react@18.2.0)
+      '@mui/x-date-pickers': 5.0.20(@emotion/react@11.11.1)(@emotion/styled@11.11.0)(@mui/material@5.14.18)(@types/react@18.2.20)(dayjs@1.11.10)(react-dom@18.2.0)(react@18.2.0)
       date-fns: 2.30.0
       firebase: 9.23.0
       formik: 2.4.5(react@18.2.0)
