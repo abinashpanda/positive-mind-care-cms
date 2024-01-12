@@ -21,7 +21,6 @@ const env = createEnv({
     CALENDLY_ACCESS_TOKEN: z.string(),
     WA_PHONE_NUMBER_ID: z.string(),
     WA_CLOUD_API_ACCESS_TOKEN: z.string(),
-    WA_CLOUD_API_VERSION: z.string(),
   },
   runtimeEnv: {
     NEXT_PUBLIC_FIREBASE_API_KEY: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
@@ -42,7 +41,6 @@ const env = createEnv({
     CALENDLY_ACCESS_TOKEN: process.env.CALENDLY_ACCESS_TOKEN,
     WA_PHONE_NUMBER_ID: process.env.WA_PHONE_NUMBER_ID,
     WA_CLOUD_API_ACCESS_TOKEN: process.env.WA_CLOUD_API_ACCESS_TOKEN,
-    WA_CLOUD_API_VERSION: process.env.WA_CLOUD_API_VERSION,
   },
 })
 
