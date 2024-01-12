@@ -62,11 +62,11 @@ export async function POST(request: Request) {
     await appointmentCollectionRef.add({
       user: user.uid,
       doctor: doctor.id,
-      start_time: result.data.payload.scheduled_event.start_time,
-      end_time: result.data.payload.scheduled_event.end_time,
+      startTime: result.data.payload.scheduled_event.start_time,
+      endTime: result.data.payload.scheduled_event.end_time,
       status: 'NOT_COMPLETED',
-      cancel_url: result.data.payload.cancel_url,
-      reschedule_url: result.data.payload.reschedule_url,
+      cancelUrl: result.data.payload.cancel_url,
+      rescheduleUrl: result.data.payload.reschedule_url,
     })
 
     return NextResponse.json({ message: 'Appointment created successfully!' }, { status: 200 })

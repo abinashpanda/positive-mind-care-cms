@@ -22,11 +22,11 @@ const appointmentCollection = buildCollection<Appointment>({
       path: 'doctors',
       name: 'Doctor',
     }),
-    start_time: buildProperty({
+    startTime: buildProperty({
       dataType: 'date',
       name: 'Start Date',
     }),
-    end_time: buildProperty({
+    endTime: buildProperty({
       dataType: 'date',
       name: 'End Date',
     }),
@@ -80,6 +80,14 @@ const appointmentCollection = buildCollection<Appointment>({
           { id: 'BOOK_DEEP_TMS', label: 'Book Deep TMS' },
         ],
       },
+    }),
+    cancelUrl: buildProperty({
+      dataType: 'string',
+      name: 'Cancel Url',
+    }),
+    rescheduleUrl: buildProperty({
+      dataType: 'string',
+      name: 'Reschedule URL',
     }),
   },
 })
