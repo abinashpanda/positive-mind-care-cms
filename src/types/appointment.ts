@@ -1,6 +1,8 @@
+import { EntityReference } from 'firecms'
+
 export type Appointment = {
-  user: any // @TODO: Figure out correct type
-  doctor: any
+  user: EntityReference
+  doctor: EntityReference
   startTime: Date
   endTime: Date
   status: 'COMPLETED' | 'RESCHEDULED' | 'NOT_COMPLETED' | 'CANCELLED'
