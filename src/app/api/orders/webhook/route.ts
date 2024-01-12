@@ -6,7 +6,7 @@ import EmailTemplate from '@/app/_components/email-template'
 import { fetchDoctorById } from '@/queries/doctor'
 import { fetchProduct } from '@/utils/product'
 import { CreateOrderSchema } from '@/schema/order'
-import { sendPaymentConfirmationWhatsapp } from '@/utils/whatsapp'
+import { sendWhatsappMessageByTemplate } from '@/utils/whatsapp'
 
 const paymentSuccessSchema = z.object({
   payload: z.object({
@@ -78,11 +78,32 @@ export async function POST(req: Request) {
     const product = await fetchProduct(data)
     if (product) {
       // Send Whatsapp confirmation
-      await sendPaymentConfirmationWhatsapp({
+      await sendWhatsappMessageByTemplate({
         to: user.phoneNumber!,
-        amount: product.price,
-        orderName: `${product.name} ${product.priceName}`,
-        customerName: user.displayName ?? '',
+        templateName: 'payment_confirm',
+        components: [
+          {
+            type: 'body',
+            parameters: [
+              {
+                type: 'text',
+                text: user.displayName ?? '',
+              },
+              {
+                type: 'text',
+                text: `${product.name} ${product.priceName}`,
+              },
+              {
+                type: 'text',
+                text: `₹ ${product.price}`,
+              },
+              {
+                type: 'text',
+                text: 'Positive Mind Care',
+              },
+            ],
+          },
+        ],
       })
     }
 

@@ -1,18 +1,17 @@
-import { env } from 'process'
+import { env } from '@/env.mjs'
+
+type Component = {
+  type: 'body'
+  parameters: { type: 'text'; text: string }[]
+}
 
 type SendPaymentWhatsappPayload = {
   to: string
-  customerName: string
-  orderName: string
-  amount: number
+  templateName: 'payment_confirm' | 'appointment_conf'
+  components: Component[]
 }
 
-export async function sendPaymentConfirmationWhatsapp({
-  to,
-  customerName,
-  orderName,
-  amount,
-}: SendPaymentWhatsappPayload) {
+export async function sendWhatsappMessageByTemplate({ to, templateName, components }: SendPaymentWhatsappPayload) {
   try {
     const response = await fetch(`https://graph.facebook.com/v18.0/${env.WA_PHONE_NUMBER_ID}/messages`, {
       method: 'POST',
@@ -26,31 +25,9 @@ export async function sendPaymentConfirmationWhatsapp({
         to,
         type: 'template',
         template: {
-          name: 'payment_confirm',
+          name: templateName,
           language: { policy: 'deterministic', code: 'en_US' },
-          components: [
-            {
-              type: 'body',
-              parameters: [
-                {
-                  type: 'text',
-                  text: customerName,
-                },
-                {
-                  type: 'text',
-                  text: orderName,
-                },
-                {
-                  type: 'text',
-                  text: `₹ ${amount}`,
-                },
-                {
-                  type: 'text',
-                  text: 'Positive Mind Care',
-                },
-              ],
-            },
-          ],
+          components,
         },
       }),
     })
