@@ -1,8 +1,7 @@
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
-import dayjs from 'dayjs'
-import { generateCode, generateOTP } from '@/utils/auth'
-import { getAuth, getFirestore } from '@/utils/firebase'
+import { generateCode, generateOTP, generateOTPDoc } from '@/utils/auth'
+import { getAuth } from '@/utils/firebase'
 import { MOBILE_REGEX } from '@/utils/constants'
 
 const loginSchema = z.object({
@@ -31,19 +30,13 @@ export async function POST(request: Request) {
 
   const otp = generateOTP()
   const code = generateCode()
-  const firestore = getFirestore()
-
-  const otpCollectionRef = firestore.collection('otp')
 
   try {
     // @TODO: Send OTP message
-    await otpCollectionRef.add({
+    await generateOTPDoc({
       mobileNumber: result.data.mobileNumber,
       otp,
       code,
-      status: 'UNUSED',
-      expiresAt: dayjs().add(5, 'minutes').toDate(),
-      createdAt: dayjs().toDate(),
     })
 
     // @TODO: Remove OTP from response after sending it in text message
