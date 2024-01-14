@@ -57,10 +57,15 @@ export async function POST(request: Request) {
       return NextResponse.json({ success: false, error: { message: 'Code does not match!' } }, { status: 400 })
     }
 
-    /** Verify actual OTP */
+    /** 3.Verify actual OTP */
     if (otpDoc.otp !== result.data.otp) {
       return NextResponse.json({ success: false, error: { message: 'OTP does not match!' } }, { status: 400 })
     }
+
+    await otpDocs.docs[0].ref.set({
+      ...otpDoc,
+      status: 'USED',
+    })
 
     const token = await auth.createCustomToken(user.uid)
 
